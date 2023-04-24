@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		html{
+			scroll-behavior: smooth;
+		}
+		body{
+			font-size: 1em;
+			margin: 45px;
+        	padding: 25px;
+        	color: #fff;
+			background-color: #000;
+			justify-content: space-around;
+			/* background-color: #FA8BFF;
+            background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+			background-size: 400% 400%;
+			animation: gradient 5s ease infinite; */
+			overflow: hidden;
+			resize: both;
+			animation: entry-effect 1s ease-in-out;
+		}
+		@keyframes entry-effect {
+		0% {
+			opacity: 0;
+			transform: scale(0.5);
+		}
+		100% {
+			opacity: 1;
+			transform: scale(1);
+		}
+		}
+		/* @keyframes gradient {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		} */
+		h1{
+			float: left;
+			/* writing-mode: vertical-lr; vertical orientation of text with flex only.*/
+			font-size: 4rem;
+			font-family: "Arial Nova Light";
+			background: linear-gradient(130deg, aqua,magenta, orange);
+			background-color: #fff; 
+			background-clip: text;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		h3{
+			align-self: center;
+			/* writing-mode: vertical-lr; vertical orientation of text with flex only.*/
+			font-size: 3.2rem;
+			font-family: "Arial Nova Light";
+		
+			background: linear-gradient(130deg, aqua,magenta, orange);
+			background-color: #fff; 
+			background-clip: text;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		p{
+			font-family: "Arial Nova Regular";
+			font-size: 20px;
+			margin-left: 20px;
+		}
+		.main{
+			display: flex;
+		}
+		header {
+		/* box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.25); */
+		align-items: center;
+		border: 2px solid #000;
+		border-radius: 14px;
+		background: linear-gradient(45deg, aqua, magenta, orange);
+		background-size: 200% 100%;
+		transition: background-position 0.7s ease-in-out;
+		}
+
+		header:hover {
+		background-position: -100% 0;
+		}
+
+		ul{
+			display: flex;
+			justify-content: space-around;
+		}
+		li a{
+			width: 90%;
+			font-weight: 300;
+			font-size: 2.1em;
+			font-family: "Arial Nova Light";
+			color: #fff;
+			text-decoration: none;
+		}
+		hr{
+			border: none;
+			border-radius: 99px;
+			background: linear-gradient(130deg, aqua,magenta, orange);
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<ul type="none">
+			<li><a href="home.html" class="home">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="partners.html">Partners</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</header>
+	<div class="main">
+		<br>
+		<h1>Welcome to my website</h1>
+		<h1>What is Technology? </h1><br>
+		<p align="justify">Technology is the application of knowledge for achieving practical goals in a reproducible way.[1] The word technology can also mean the products resulting from such efforts, including both tangible tools such as utensils or machines, and intangible ones such as software. Technology plays a critical role in science, engineering, and everyday life.
+
+		Technological advancements have led to significant changes in society. The earliest known technology is the stone tool, used during prehistoric times, followed by the control of fire, which contributed to the growth of the human brain and the development of language during the Ice Age. The invention of the wheel in the Bronze Age allowed greater travel and the creation of more complex machines. More recent technological inventions, including the printing press, telephone, and the Internet, have lowered barriers to communication and ushered in the knowledge economy.
+			
+		While technology contributes to economic development and improve human prosperity, it can also have negative impacts like pollution or resource depletion, or may cause social harms like technological unemployment resulting from automation. As a result, there are ongoing philosophical and political debates about the role and use of technology, the ethics of technology, and ways to mitigate potential downsides. </p>
+	</div>
+	<br><br><br>
+	<hr size="25px" align="center" width="70%">
+	<h3 align="center"> :: Specially Designed For Myself ✨ :: </h3>
+</body>
+</html>
