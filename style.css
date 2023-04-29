@@ -1,5 +1,12 @@
 /* Properties For Index.html */
 
+@media only screen and (max-width: 767px) {
+  body {
+    transform: scale(0.8);
+    transform-origin: top left;
+  }
+}
+
     html{
         scroll-behavior: smooth;
     }
