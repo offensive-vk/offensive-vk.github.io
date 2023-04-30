@@ -34,7 +34,7 @@ h3{
     display: inline;
 }
 .partners{
-    text-decoration: underline;
+    border-bottom: 1px solid;
 }
 header {
     align-items: center;

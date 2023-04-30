@@ -35,7 +35,7 @@ h3{
     display: inline;
 }
 .services{
-    text-decoration: underline;
+    border-bottom: 1px solid;
 }
 header {
     align-items: center;

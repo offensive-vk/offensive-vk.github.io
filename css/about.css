@@ -1,7 +1,6 @@
 /* About us */
-html{
-    scroll-behavior: smooth;
-}
+
+
 body{
     font-size: 1em;
     margin: 45px;
@@ -15,7 +14,6 @@ body{
 
 h1{
     
-    /* writing-mode: vertical-lr; vertical orientation of text with flex only.*/
     font-size: 4rem;
     font-family: "Arial Nova Light";
     background: linear-gradient(130deg, aqua,magenta, orange);
@@ -26,7 +24,6 @@ h1{
 }
 h3{
     align-self: center;
-    /* writing-mode: vertical-lr; vertical orientation of text with flex only.*/
     font-size: 2.2rem;
     font-family: "Arial Nova Light";
 
@@ -45,10 +42,19 @@ p{
     display: inline-block;
 }
 .about{
-    text-decoration: underline;
+    border-bottom: 1px solid;
+    /* text-decoration: underline; */
+}
+.github{
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.github:hover{
+    border-bottom: 1px solid #fff;
+    
 }
 header {
-    /* box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.25); */
+
     align-items: center;
     border: 2px solid #000;
     border-radius: 14px;
@@ -73,6 +79,7 @@ li a{
     color: #fff;
     text-decoration: none;
 }
+
 hr{
     border: none;
     border-radius: 99px;

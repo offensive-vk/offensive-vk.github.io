@@ -117,7 +117,7 @@
         transition: color 900ms ease-in-out;
     }
     .home{
-        text-decoration: underline;
+        border-bottom: 1px solid;
     }
     .top:hover{
         text-decoration: underline;
