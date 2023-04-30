@@ -1,0 +1,204 @@
+/* Properties For Index.html */
+
+    @media only screen and (max-width: 720px) {
+    body {
+        transform: scale(0.7);
+        transform-origin: top left;
+    }
+    }
+    /* properties for array buttons of webpage */
+    ::-webkit-scrollbar-button{
+        background-color: #fff;
+        border-bottom-left-radius: -44px;
+        border-top-left-radius: 44px;
+        border-bottom-left-radius: -44px;
+        border-top-left-radius: 44px;
+    }
+    /* width and color of scrollbar track */
+    ::-webkit-scrollbar {
+        width: 20px;
+        height: 10px;
+        border-radius: 40px;
+        background-color: #000;
+        
+    }
+    /* color of scrollbar handle */
+    ::-webkit-scrollbar-thumb {
+        border-radius: 40px;
+        background: linear-gradient(45deg, aqua, magenta, orange);
+        
+    }
+  
+    body{
+        scroll-behavior: smooth;
+        font-size: 1em;
+        margin: 45px;
+        padding: 25px;
+        color: #fff;
+        background-color: #000;
+        justify-content: space-around;
+        /* background-color: #FA8BFF;
+        background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+        background-size: 400% 400%;
+        animation: gradient 5s ease infinite; */
+        /* overflow: hidden; */
+        resize: both;
+        animation: entry-effect 1s ease-in-out;
+    }
+    /* @keyframes entry-effect {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    } */
+    /* @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    } */
+    h1{
+        float: left;
+        font-size: 4rem;
+        font-family: "Arial Nova Light";
+        background: linear-gradient(130deg, aqua,magenta, orange);
+        background-color: #fff; 
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h2{
+        text-align: center;
+        font-size: 3rem;
+        font-family: "Arial Nova Light";
+        background: linear-gradient(130deg, aqua,magenta, orange);
+        background-color: #fff; 
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h3{
+        align-self: center;
+        font-size: 3.2rem;
+        font-family: "Arial Nova Light";
+
+        background: linear-gradient(130deg, aqua,magenta, orange);
+        background-color: #fff; 
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    p{
+        font-family: "Arial Nova";
+        font-size: 21.2px;
+        margin-left: 20px;
+    }
+    .top{
+        width: 90%;
+        font-weight: 300;
+        font-size: 2.1em;
+        font-family: "Arial Nova Light";
+        color: #fff;
+        text-decoration: none;
+        background: linear-gradient(60deg, aqua,magenta, orange);
+        background-color: #fff; 
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: color 900ms ease-in-out;
+    }
+    .home{
+        text-decoration: underline;
+    }
+    .top:hover{
+        text-decoration: underline;
+        color: #fff;
+        background-color: aqua;
+    }
+    .first{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 30px;        
+    }
+    .second{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    header {
+        align-items: center;
+        border: 2px solid #000;
+        position: fixed;
+        /* top: 0;
+        left: 0; */
+        /* width: 100%; */
+        /* z-index: 1000; */
+        position: sticky;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 14px;
+        background: linear-gradient(45deg, aqua, magenta, orange);
+        background-size: 200% 100%;
+        transition: background-position 0.7s ease-in-out;
+    }
+
+    header:hover {
+        background-position: -100% 0;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    li a{
+        /* display: block; */
+        width: 90%;
+        font-weight: 300;
+        font-size: 2.1em;
+        font-family: "Arial Nova Light";
+        color: #fff;
+        text-decoration: none;
+    }
+    hr{
+        border: none;
+        border-radius: 99px;
+        background: linear-gradient(130deg, aqua,magenta, orange);
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: transparent;
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .box {
+        flex: 1;
+        margin: 20px;
+        padding: 20px;
+        /* background-color: #fff; */
+        background-color: transparent;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    .box img{
+        float: left;
+        
+    }
+    .box p {
+        margin: 12px;
+        font-size: 1rem;
+        text-align: justify;
+        color: #666;
+    }
