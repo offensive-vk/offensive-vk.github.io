@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Arial Nova';
+    src: local('Arial Nova Regular'), local('Arial-Nova-Regular'),
+        url('https://offensive-vk.github.io/fonts/ArialNova.woff2') format('woff2'),
+        url('https://offensive-vk.github.io/fonts/ArialNova.woff') format('woff'),
+        url('https://offensive-vk.github.io/fontsArialNova.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Arial Nova';
-    src: local('Arial Nova Regular'), local('Arial-Nova-Regular'),
-        url('ArialNova.woff2') format('woff2'),
-        url('ArialNova.woff') format('woff'),
-        url('ArialNova.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-  }
