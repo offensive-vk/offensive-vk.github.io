@@ -202,5 +202,7 @@
         text-align: justify;
         color: #666;
     }
-
+    .box a{
+        color: inherit;
+    }
     /* Loading Animations and Properties */
