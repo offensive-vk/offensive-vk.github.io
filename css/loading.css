@@ -1,0 +1,29 @@
+    /* Loading Animations and Properties */
+    
+    #progress-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 4px;
+        background: linear-gradient(to right, #00c6ff, orange);
+        background-size: 200% 100%;
+        background-image: linear-gradient(to right, cyan, magenta, orange);
+        width: 100%;
+        z-index: 9999;
+        transition: width 0.5s ease-in-out;
+    }
+
+    #progress-bar.loading {
+        animation: shine 3s ease-in-out infinite;
+    }
+    @keyframes shine {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }

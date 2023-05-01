@@ -6,7 +6,7 @@
         transform-origin: top left;
     }
     }
-    /* properties for array buttons of webpage */
+    /* properties for arrow buttons of webpage */
     ::-webkit-scrollbar-button{
         background-color: #fff;
         border-bottom-left-radius: -44px;
@@ -202,3 +202,5 @@
         text-align: justify;
         color: #666;
     }
+
+    /* Loading Animations and Properties */
