@@ -1,7 +1,7 @@
 /* Seperate css file fonts and properties */
 
 @font-face {
-    font-family: 'Arial Nova Light';
+    font-family: 'Arial Nova';
     src: 
         url('https://offensive-vk.github.io/fonts/ArialNova.ttf') format('truetype'),
         url('https://offensive-vk.github.io/fonts/ArialNova.woff2') format('woff2'),

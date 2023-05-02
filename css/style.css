@@ -43,7 +43,7 @@
         animation: gradient 5s ease infinite; */
         /* overflow: hidden; */
         resize: both;
-        animation: entry-effect 1s ease-in-out;
+        /* animation: entry-effect 1s ease-in-out; */
     }
     /* @keyframes entry-effect {
     0% {
@@ -75,6 +75,7 @@
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        
     }
     h2{
         text-align: center;
@@ -205,4 +206,5 @@
     .box a{
         color: inherit;
     }
-    /* Loading Animations and Properties */
+
+    
