@@ -1,0 +1,35 @@
+    body::selection{
+        background-color: transparent;
+        
+    }
+    body{
+        color: #fff;
+        background-color: #000;
+        justify-content: space-around;
+        background-color: #FA8BFF;
+        background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+        background-size: 400% 400%;
+        animation: gradient 5s ease infinite;    
+        animation: entry-effect 1s ease-in-out;
+    }
+    @keyframes entry-effect {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    }
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }

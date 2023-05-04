@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Arial Nova';
     src: url('ArialNova-Bold.eot');
     src: local('Arial Nova Bold'), local('ArialNova-Bold'),
@@ -6,10 +6,13 @@
         url('ArialNova-Bold.woff2') format('woff2'),
         url('ArialNova-Bold.woff') format('woff'),
         url('ArialNova-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: bold; 
     font-style: normal;
-}
+} */
 
+html, body{
+    font-family: "Arial Nova Light",sans-serif;
+}
 @font-face {
     font-family: 'Arial Nova Light';
     src: url('ArialNova-Light.eot');
