@@ -86,7 +86,7 @@
     }
     p{
         /* font-family: 'Barlow Condensed', sans-serif; */
-        font-size: 1.3rem;
+        font-size: 1.35rem;
         margin-left: 20px;
         color: #c3e0e3;
     }
@@ -167,19 +167,33 @@
         line-height: 1.5;
     }
     .box {
-        flex: 1;
+        flex: 6 / 2;
         margin: 20px;
         padding: 20px;
-        /* background-color: #fff; */
+        
         background-color: transparent;
         border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        margin-bottom: 10px;
-    }
-    .box img{
+        /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+        /* margin-bottom: 10px; */
+        width: calc(33.33% - 10px);
+        /* height: 100px; */
+        margin-bottom: 20px;
+        animation: float 2.5s infinite alternate;
 
+    }
+    @keyframes float {
+        0% {
+          transform: translate(0, 0);
+        }
+        100% {
+          transform: translate(-20px, 20px);
+          transform: translate(20px, -20px);
+        }
+      }
+
+
+    .box img{
         float: left;
-        
     }
     .box p {
         font-family: Arial Nova, sans-serif;
@@ -191,14 +205,17 @@
     .box > a{
         font-size: 1rem;
         /* border: 2px solid #fff; */
+        color: #fefefe;
         background-color: #000;
         text-decoration: none;
         border-radius: 15px;
         padding: 12px;
         margin: 100px;
+        transition: background-position 800ms ease-in-out;
     }
     .box > a:hover{
-        background-origin: content-box;
+        background-position: 0 -100%;
+        /* background-origin: content-box; */
         animation: more 800ms ease-in-out both;
     }
     @keyframes more {
