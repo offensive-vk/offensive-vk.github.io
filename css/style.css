@@ -34,7 +34,7 @@
     }
     h1,h2,h3,h4,h5,h6,p::selection{
         background-color: #000;
-        
+
     }
     body{
         font-family: "Arial Nova Light";
@@ -217,20 +217,20 @@
     }
     a:hover .material-symbols-outlined {
 
-    animation: rotate-icon 900ms forwards;
+        animation: rotate-icon 900ms forwards;
     }
     
     @keyframes rotate-icon {
-    0% {
-        transform: translateY(10px), rotate(0deg);
-        opacity: 1; 
-    }
-    90% {
-        transform: rotate(-190deg); 
-        opacity: 1; 
-    }
-    100%{
-        transform: translateX(10px);
-    }
+        0% {
+            transform: translateY(10px), rotate(0deg);
+            opacity: 1; 
+        }
+        90% {
+            transform: rotate(-190deg); 
+            opacity: 1; 
+        }
+        100%{
+            transform: translateX(10px);
+        }
     }
     
