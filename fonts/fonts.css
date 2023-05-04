@@ -11,4 +11,12 @@
     font-style: normal;
   }
 
-  
+  @font-face {
+    font-family: 'Arial Nova Light';
+    src: 
+        url('https://offensive-vk.github.io/fonts/ArialNova.ttf') format('truetype'),
+        url('https://offensive-vk.github.io/fonts/ArialNova.woff2') format('woff2'),
+        url('https://offensive-vk.github.io/fonts/ArialNova.woff') format('woff');
+
+    font-style: normal;
+  }

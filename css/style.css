@@ -6,6 +6,7 @@
         transform-origin: top left;
     }
     }
+    
     /* properties for arrow buttons of webpage */
     ::-webkit-scrollbar-button{
         background-color: #fff;
@@ -28,7 +29,10 @@
         background: linear-gradient(45deg, aqua, magenta, orange);
         
     }
-  
+    /* body::selection{
+        background-color: transparent;
+        
+    } */
     body{
         scroll-behavior: smooth;
         font-size: 1em;
@@ -77,6 +81,11 @@
         -webkit-text-fill-color: transparent;
         
     }
+    body::selection{
+        background-color: #000;
+        color: #fff; 
+        
+    }
     h2{
         text-align: center;
         font-size: 3rem;
@@ -99,14 +108,15 @@
         -webkit-text-fill-color: transparent;
     }
     p{
-        font-family: "Arial Nova";
-        font-size: 21.2px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.6rem;
         margin-left: 20px;
+        color: #c3e0e3;
     }
     .top{
-        width: 90%;
-        font-weight: 300;
-        font-size: 2.1em;
+        width: 80%;
+        font-weight: 200;
+        font-size: 2em;
         font-family: "Arial Nova Light";
         color: #fff;
         text-decoration: none;
@@ -115,15 +125,10 @@
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        transition: color 900ms ease-in-out;
+        transition: border-buttom 900ms ease-in-out;
     }
-    .home{
+    .home, .top:hover{
         border-bottom: 1px solid;
-    }
-    .top:hover{
-        text-decoration: underline;
-        color: #fff;
-        background-color: aqua;
     }
     .first{
         display: flex;
@@ -180,7 +185,7 @@
         align-items: center;
         padding: 10px;
         background-color: transparent;
-        font-family: Arial, sans-serif;
+        font-family: Arial Nova, sans-serif;
         font-size: 15px;
         line-height: 1.5;
     }
@@ -192,19 +197,63 @@
         background-color: transparent;
         border-radius: 5px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
     }
     .box img{
+
         float: left;
         
     }
     .box p {
+        font-family: Arial Nova, sans-serif;
         margin: 12px;
         font-size: 1rem;
         text-align: justify;
         color: #666;
     }
-    .box a{
-        color: inherit;
+    .box > a{
+        font-size: 1rem;
+        border: 2px solid #fff;
+        background-color: #fff;
+        text-decoration: none;
+        padding: 12px;
+        margin: 100px;
     }
+    .box > a:hover{
+        background-origin: content-box;
+        animation: more 800ms ease-in-out both;
+    }
+    @keyframes more {
+        from{
+            transform: scale(1);
+            background-color: #000;
+        }
+        to{
+            transform: scale(1.6);
+            background-color: chartreuse;
+        }
+    }
+    .box > a > .material-symbols-outlined{
+        transform: rotate(190deg);
+        transform: translateY(9px);
+        /* vertical-align: baseline; */
+    }
+    a:hover .material-symbols-outlined {
 
+    animation: rotate-icon 900ms forwards;
+    }
+    
+    @keyframes rotate-icon {
+    0% {
+        transform: translateY(10px), rotate(0deg);
+        opacity: 1; 
+    }
+    90% {
+        transform: rotate(-190deg); 
+        opacity: 1; 
+    }
+    100%{
+        transform: translateX(10px);
+    }
+    }
     
