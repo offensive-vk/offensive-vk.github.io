@@ -91,6 +91,7 @@
         color: #c3e0e3;
     }
     .top{
+        scroll-behavior: smooth;
         width: 80%;
         font-weight: 200;
         font-size: 2em;
