@@ -1,10 +1,10 @@
 /* Properties For Index.html */
 
     @media only screen and (max-width: 720px) {
-    body {
-        transform: scale(0.7);
-        transform-origin: top left;
-    }
+        body {
+            transform: scale(0.7);
+            transform-origin: top left;
+        }
     }
     :root{
         --color : linear-gradient(45deg, aqua, magenta, orange);
@@ -208,13 +208,14 @@
         color: #fefefe;
         background-color: #000;
         text-decoration: none;
-        border-radius: 15px;
+        border-radius: 12px;
         padding: 12px;
         margin: 100px;
+        background-size: 200% 100%;
         transition: background-position 800ms ease-in-out;
     }
     .box > a:hover{
-        background-position: 0 -100%;
+        background-position: -100% 0;
         /* background-origin: content-box; */
         animation: more 800ms ease-in-out both;
     }
