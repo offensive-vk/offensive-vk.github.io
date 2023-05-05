@@ -61,8 +61,6 @@
     }
     body::selection{
         background-color: #000;
-        color: #fff; 
-        
     }
     h2{
         text-align: center;
@@ -88,7 +86,7 @@
         /* font-family: 'Barlow Condensed', sans-serif; */
         font-size: 1.35rem;
         margin-left: 20px;
-        color: #c3e0e3;
+        color: #fff;
     }
     .top{
         scroll-behavior: smooth;
@@ -170,7 +168,6 @@
         flex: 6 / 2;
         margin: 20px;
         padding: 20px;
-        
         background-color: transparent;
         border-radius: 5px;
         /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
@@ -178,29 +175,35 @@
         width: calc(33.33% - 10px);
         /* height: 100px; */
         margin-bottom: 20px;
-        animation: float 2.5s infinite alternate;
-
     }
-    @keyframes float {
-        0% {
-          transform: translate(0, 0);
-        }
-        100% {
-          transform: translate(-20px, 20px);
-          transform: translate(20px, -20px);
-        }
-      }
-
-
+/* 
+    .box1{
+        transform: translateX(120px);
+    }
+    .box2{
+        transform: translateX(-80px);
+    }
+    .box3{
+        transform: translateX(120px);
+    }
+    .box4{
+        transform: translateX(-120px);
+    }
+    .box5{
+        transform: translateX(80px);
+    }
+    .box6{
+        transform: translateX(-20px);
+    } */
     .box img{
         float: left;
     }
     .box p {
         font-family: Arial Nova, sans-serif;
-        margin: 12px;
+        margin: 10px;
         font-size: 1rem;
         text-align: justify;
-        color: #666;
+        color: #fff;
     }
     .box > a{
         font-size: 1rem;
