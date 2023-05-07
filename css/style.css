@@ -6,6 +6,7 @@
             transform-origin: top left;
         }
     }
+    /* Global Colors */
     :root{
         --color : linear-gradient(45deg, aqua, magenta, orange);
         --color2 : linear-gradient(120deg, lightgreen, orange); 
