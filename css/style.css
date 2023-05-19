@@ -35,7 +35,6 @@
     }
     h1,h2,h3,h4,h5,h6,p::selection{
         background-color: #000;
-
     }
     body{
         font-family: "Arial Nova Light";
@@ -176,26 +175,33 @@
         width: calc(33.33% - 10px);
         /* height: 100px; */
         margin-bottom: 20px;
+        position: relative;
+        border: 1px solid #fff;
     }
-/* 
-    .box1{
-        transform: translateX(120px);
-    }
+    /* .box1{
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+    } 
     .box2{
-        transform: translateX(-80px);
-    }
+        top: 20px;
+        left: -220px;
+        right: 20px;
+        bottom: 20px;
+    } */
     .box3{
-        transform: translateX(120px);
+
     }
     .box4{
-        transform: translateX(-120px);
+
     }
     .box5{
-        transform: translateX(80px);
+
     }
     .box6{
-        transform: translateX(-20px);
-    } */
+
+    }
     .box img{
         float: left;
     }
