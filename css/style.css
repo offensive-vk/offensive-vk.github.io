@@ -119,10 +119,6 @@
         align-items: center;
         border: 2px solid #000;
         position: fixed;
-        /* top: 0;
-        left: 0; */
-        /* width: 100%; */
-        /* z-index: 1000; */
         position: sticky;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
         border-radius: 14px;
@@ -143,7 +139,6 @@
         width: 90%;
         font-weight: 300;
         font-size: 2.1em;
-        /* font-family: "Arial Nova Light"; */
         color: #fff;
         text-decoration: none;
     }
@@ -275,3 +270,18 @@
         }
     }
     
+    /* Third COntainer */
+
+    .third{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .frameworks{
+        border: 1px solid #fff;
+        justify-content: space-between;
+    }
+    .fr{
+        padding: 14px;
+        border: 1px solid #fff;
+        display: flex;
+    }
