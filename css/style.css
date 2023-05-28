@@ -18,6 +18,7 @@
       
     /* Global Colors */
     :root{
+        --color3: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
         --color : linear-gradient(45deg, aqua, magenta, orange);
         --color2 : linear-gradient(120deg, lightgreen, orange); 
     }
@@ -170,27 +171,33 @@
         line-height: 1.5;
     }
     .box {
+        
         flex: 6 / 2;
         margin: 20px;
         padding: 20px;
         background-color: transparent;
         border-radius: 5px;
-        /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
         width: calc(33.33% - 10px);
         /* height: 100px; */
         margin-bottom: 20px;
         position: relative;
-        border: 1px solid #fff;
+        transition: all .3s ease-in-out;
+
+    }
+    .box:hover{
+        background-color: #4e6057;
+        transform: scale(0.98);
+        border-radius: 20px;
     }
     .box1{
         top: 0px;
-        left: 20px;
-        right: 0px;
+        left: 120px;
+        right: -20px;
         bottom: 0px;
     } 
     .box2{
         top: 0px;
-        left: -1.4rem;
+        left: -10rem;
         right: 50px;
         bottom: 0px;
     }
@@ -229,9 +236,9 @@
         text-align: justify;
         color: #fff;
     }
-    .box > a{
+    .box a{
         font-size: 1rem;
-        /* border: 2px solid #fff; */
+        width: 2rem;
         color: #fefefe;
         background-color: #000;
         text-decoration: none;
@@ -239,11 +246,11 @@
         padding: 12px;
         margin: 100px;
         background-size: 200% 100%;
-        transition: background-position 800ms ease-in-out;
+        transition: background-position, animation 800ms ease-in-out;
     }
     .box > a:hover{
         background-position: -100% 0;
-        /* background-origin: content-box; */
+        background-origin: content-box;
         animation: more 800ms ease-in-out both;
     }
     @keyframes more {
@@ -251,7 +258,7 @@
             transform: scale(1);
         }
         to{
-            transform: scale(1.6);
+            transform: scale(1.5);
             background: var(--color);
         }
     }
@@ -291,14 +298,13 @@
     }
     .fr{
         padding: 14px;
-        border: 1.5px solid #000;
+        border: 2px solid #000;
         display: flex;
         margin: 20px;
-        transition: border 800ms ease-in-out;
+        transition: border 700ms ease-in-out;
     }
     .fr:hover{
-        border: 1.5px solid cyan;
-        
+        border: 2px solid cyan;
     }
 
     .img{
