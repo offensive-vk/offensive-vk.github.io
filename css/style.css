@@ -5,7 +5,17 @@
             transform: scale(0.7);
             transform-origin: top left;
         }
+        header{
+            display: block;
+            align-items: center;
+        }
     }
+    @media only screen and (max-width: 767px) {
+        body {
+          display: none;
+        }
+      }
+      
     /* Global Colors */
     :root{
         --color : linear-gradient(45deg, aqua, magenta, orange);
@@ -284,4 +294,11 @@
         padding: 14px;
         border: 1px solid #fff;
         display: flex;
+        margin: 20px;
+
+    }
+    .img{
+        border: none;
+        border-radius: 22px;
+        margin: 1.3em;
     }
