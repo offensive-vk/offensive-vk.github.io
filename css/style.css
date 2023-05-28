@@ -287,8 +287,7 @@
         margin-bottom: 30px;
     }
     .frameworks{
-        border: 1px solid #fff;
-        justify-content: space-between;
+        /* border: 1px solid #fff; */
     }
     .fr{
         padding: 14px;
