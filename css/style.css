@@ -269,7 +269,6 @@
         /* vertical-align: baseline; */
     }
     a:hover .material-symbols-outlined {
-
         animation: rotate-icon 900ms forwards;
     }
     

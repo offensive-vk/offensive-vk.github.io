@@ -23,7 +23,7 @@ h3{
     -webkit-text-fill-color: transparent;
 }
 .main{
-    display: inline-block;
+    display: block;
     align-items: center;
     justify-content: center;
 }
@@ -37,13 +37,13 @@ h3{
     text-decoration: none;
     margin: 20px;
     padding: 10px;
-    color: #000;
-    transition: border, background-color, border-radius 300ms ease-in-out;
+    color: transparent;
+    transition: border, color, border-radius 300ms ease-in-out;
 }
 .github:hover{
     border: 1px solid #000;
     border-radius: 22px;
-    background-color: #fff;
+    color: #000;
 }
 header {
     align-items: center;
