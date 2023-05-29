@@ -1,0 +1,326 @@
+/* This file is STRICTLY & SOLELY an asset of Authorized Developers and Content Managers */
+/* DO NOT SHARE/COPY/PASTE/REPRODUCE THIS FILE AT ANY CERTAIN CONDITION. */
+
+    @media only screen and (max-width: 720px) {
+        body {
+            transform: scale(0.7);
+            transform-origin: top left;
+        }
+        header{
+            display: block;
+            align-items: center;
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        body {
+          display: none;
+        }
+      }
+      
+    /* Global Colors */
+    :root{
+        --color3: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+        --color : linear-gradient(45deg, aqua, magenta, orange);
+        --color2 : linear-gradient(120deg, lightgreen, orange); 
+    }
+    /* properties for arrow buttons of webpage */
+    ::-webkit-scrollbar-button{
+        background-color: #fff;
+        border-bottom-left-radius: -44px;
+        border-top-left-radius: 44px;
+        border-bottom-left-radius: -44px;
+        border-top-left-radius: 44px;
+    }
+    /* width and color of scrollbar track */
+    ::-webkit-scrollbar {
+        width: 20px;
+        height: 10px;
+        border-radius: 40px;
+        background-color: #000;
+        
+    }
+    /* color of scrollbar handle */
+    ::-webkit-scrollbar-thumb {
+        border-radius: 40px;
+        background: linear-gradient(45deg, aqua, magenta, orange);
+        
+    }
+    h1,h2,h3,h4,h5,h6,p::selection{
+        background-color: #000;
+    }
+    body{
+        font-family: "Arial Nova Light";
+        scroll-behavior: smooth;
+        font-size: 1em;
+        margin: 45px;
+        padding: 25px;
+        color: #fff;
+        background-color: #000;
+        justify-content: space-around;
+        resize: both;
+        
+    }
+    h1{
+        float: left;
+        font-size: 4rem;
+        /* font-family: "Arial Nova Light"; */
+        background: linear-gradient(130deg, aqua,magenta, orange);
+        background-color: #fff; 
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    body::selection{
+        background-color: #000;
+    }
+    h2{
+        text-align: center;
+        font-size: 3rem;
+        /* font-family: "Arial Nova Light"; */
+        background: linear-gradient(130deg, aqua,magenta, orange);
+        background-color: #fff; 
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h3{
+        align-self: center;
+        font-size: 3.2rem;
+        /* font-family: "Arial Nova Light"; */
+        background: linear-gradient(130deg, aqua,magenta, orange);
+        background-color: #fff; 
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    p{
+        /* font-family: 'Barlow Condensed', sans-serif; */
+        font-size: 1.35rem;
+        margin-left: 20px;
+        color: #fff;
+    }
+    .top{
+        scroll-behavior: smooth;
+        width: 80%;
+        font-weight: 200;
+        font-size: 2em;
+        /* font-family: "Arial Nova Light"; */
+        color: #fff;
+        text-decoration: none;
+        background: linear-gradient(60deg, aqua,magenta, orange);
+        background-color: #fff; 
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: border-buttom 900ms ease-in-out;
+    }
+    .home, .top:hover{
+        border-bottom: 1px solid;
+    }
+    .first{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 30px;        
+    }
+    .second{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    header {
+        align-items: center;
+        border: 2px solid #000;
+        position: fixed;
+        position: sticky;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 14px;
+        background: linear-gradient(45deg, aqua, magenta, orange);
+        background-size: 200% 100%;
+        transition: background-position 0.7s ease-in-out;
+    }
+
+    header:hover {
+        background-position: -100% 0;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    li a{
+        width: 90%;
+        font-weight: 300;
+        font-size: 2.1em;
+        color: #fff;
+        text-decoration: none;
+    }
+    hr{
+        border: none;
+        border-radius: 99px;
+        background: linear-gradient(130deg, aqua,magenta, orange);
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: transparent;
+        font-family: Arial Nova, sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .box {
+        
+        flex: 6 / 2;
+        margin: 20px;
+        padding: 20px;
+        background-color: transparent;
+        border-radius: 5px;
+        width: calc(33.33% - 10px);
+        /* height: 100px; */
+        margin-bottom: 20px;
+        position: relative;
+        transition: all .3s ease-in-out;
+
+    }
+    .box:hover{
+        background-color: #4e6057;
+        transform: scale(0.98);
+        border-radius: 20px;
+    }
+    .box1{
+        top: 0px;
+        left: 120px;
+        right: -20px;
+        bottom: 0px;
+    } 
+    .box2{
+        top: 0px;
+        left: -10rem;
+        right: 50px;
+        bottom: 0px;
+    }
+    .box3{
+        top: 0px;
+        bottom: 30px;
+        left: 120px;
+        right: 0;
+    }
+    .box4{
+        top: -20px;
+        bottom: 0px;
+        left: -10rem;
+        right: 50px;
+        height: 355px;
+    }
+    .box5{
+        top: -35px;
+        bottom: 0px;
+        left: 150px;
+        right: 0;
+    }
+    .box6{
+        top: -35px;
+        bottom: 0px;
+        left: -160px;
+        right: 0;
+    }
+    .box img{
+        float: left;
+    }
+    .box p {
+        font-family: Arial Nova, sans-serif;
+        margin: 10px;
+        font-size: 1rem;
+        text-align: justify;
+        color: #fff;
+    }
+    .box a{
+        font-size: 1rem;
+        width: 2rem;
+        color: #fefefe;
+        background-color: #000;
+        text-decoration: none;
+        border-radius: 12px;
+        padding: 12px;
+        margin: 100px;
+        background-size: 200% 100%;
+        transition: background-position, animation 800ms ease-in-out;
+    }
+    .box > a:hover{
+        background-position: -100% 0;
+        background-origin: content-box;
+        animation: more 800ms ease-in-out both;
+    }
+    @keyframes more {
+        from{
+            transform: scale(1);
+        }
+        to{
+            transform: scale(1.5);
+            background: var(--color);
+        }
+    }
+    .box > a > .material-symbols-outlined{
+        transform: rotate(190deg);
+        transform: translateY(9px);
+        border: none;
+        /* vertical-align: baseline; */
+    }
+    a:hover .material-symbols-outlined {
+        animation: rotate-icon 900ms forwards;
+    }
+    
+    @keyframes rotate-icon {
+        0% {
+            transform: translateY(10px), rotate(0deg);
+            opacity: 1; 
+        }
+        90% {
+            transform: rotate(-190deg); 
+            opacity: 1; 
+        }
+        100%{
+            transform: translateX(10px);
+        }
+    }
+    
+    /* Third Container */
+
+    .third{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .frameworks{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid #fff; */
+    }
+    .fr{
+        padding: 14px;
+        border: 2px solid #000;
+        display: flex;
+        margin: 20px;
+        transition: border 700ms ease-in-out;
+    }
+    .fr:hover{
+        border: 2px solid cyan;
+    }
+
+    .img{
+        border: none;
+        border-radius: 22px;
+        margin: 2.1em;
+        transition: all 250ms ease-in-out;
+
+    }
+    .img:hover{
+        transform: scale(1.2);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+
+/* This file is STRICTLY & SOLELY an asset of Authorized Developers and Content Managers */
+/* DO NOT SHARE/COPY/PASTE/REPRODUCE THIS FILE AT ANY CERTAIN CONDITION. */
