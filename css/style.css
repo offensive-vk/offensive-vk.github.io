@@ -202,15 +202,15 @@
         bottom: 0px;
     }
     .box3{
-        top: -20px;
+        top: 0px;
         bottom: 30px;
-        left: 80px;
+        left: 120px;
         right: 0;
     }
     .box4{
         top: -20px;
         bottom: 0px;
-        left: -80px;
+        left: -10rem;
         right: 50px;
         height: 355px;
     }
@@ -294,6 +294,8 @@
         margin-bottom: 30px;
     }
     .frameworks{
+        display: flex;
+        flex-direction: column;
         /* border: 1px solid #fff; */
     }
     .fr{
@@ -310,7 +312,7 @@
     .img{
         border: none;
         border-radius: 22px;
-        margin: 1.3em;
+        margin: 2.1em;
         transition: all 250ms ease-in-out;
 
     }
