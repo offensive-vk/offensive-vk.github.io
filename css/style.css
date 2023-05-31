@@ -1,6 +1,6 @@
 /* Properties For Index.html */
 
-    @media only screen and (max-width: 720px) {
+    /* @media only screen and (max-width: 720px) {
         body {
             transform: scale(0.7);
             transform-origin: top left;
@@ -9,7 +9,7 @@
             display: block;
             align-items: center;
         }
-    }
+    } */
     @media only screen and (max-width: 767px) {
         body {
           display: none;
@@ -18,9 +18,9 @@
       
     /* Global Colors */
     :root{
-        --color3: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
         --color : linear-gradient(45deg, aqua, magenta, orange);
         --color2 : linear-gradient(120deg, lightgreen, orange); 
+        --color3: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
     }
     /* properties for arrow buttons of webpage */
     ::-webkit-scrollbar-button{
@@ -104,7 +104,6 @@
         width: 80%;
         font-weight: 200;
         font-size: 2em;
-        /* font-family: "Arial Nova Light"; */
         color: #fff;
         text-decoration: none;
         background: linear-gradient(60deg, aqua,magenta, orange);
@@ -112,7 +111,7 @@
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        transition: border-buttom 900ms ease-in-out;
+        transition: border-bottom 0.3s ease-in-out;
     }
     .home, .top:hover{
         border-bottom: 1px solid;
@@ -204,7 +203,7 @@
     .box3{
         top: 0px;
         bottom: 30px;
-        left: 120px;
+        left: 130px;
         right: 0;
     }
     .box4{
