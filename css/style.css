@@ -10,7 +10,7 @@
             align-items: center;
         }
     } */
-    @media only screen and (max-width: 767px) {
+    @media (max-width: 720px) {
         body {
           display: none;
         }
@@ -48,6 +48,7 @@
         background-color: #000;
     }
     body{
+        user-select: none;
         font-family: "Arial Nova Light";
         scroll-behavior: smooth;
         font-size: 1em;
