@@ -1,1 +1,104 @@
+/* mobile.css */
 
+/* Global Styles */
+
+body {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.header {
+    padding: 5px;
+}
+
+.navbar {
+    display: none;
+}
+
+.container {
+    padding: 5px;
+}
+
+.box {
+    margin: 10px;
+}
+
+.box p {
+    font-size: 1rem;
+}
+
+.top {
+    font-size: 1.5rem;
+}
+
+/* Specific Styles for Mobile Devices */
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 800px) {
+
+    /* Global Styles */
+    body {
+        font-size: 12px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    .header {
+        padding: 2px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    .box {
+        margin: 5px;
+        width: calc(50% - 10px);
+    }
+
+    .box p {
+        font-size: 0.9rem;
+    }
+
+    .top {
+        font-size: 1.2rem;
+    }
+}
