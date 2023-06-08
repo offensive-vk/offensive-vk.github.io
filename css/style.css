@@ -151,7 +151,7 @@ p {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: border-bottom 0.3s ease-in-out;
+    transition: border-bottom , background-color 500ms ease-in-out;
 }
 
 .home,
