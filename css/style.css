@@ -19,7 +19,7 @@
     }
     
     body::before {
-        content: "Sorry, the website is not available on smaller screens.";
+        content: "Sorry, this website is not available on smaller screens.";
         display: block;
         position: fixed;
         margin: 0 auto;
