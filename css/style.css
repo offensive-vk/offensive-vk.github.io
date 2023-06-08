@@ -227,7 +227,6 @@ hr {
     border-radius: 5px;
     width: calc(33.33% - 10px);
     height: calc(33.33% - 100px);
-    /* height: 100px; */
     margin-bottom: 20px;
     position: relative;
     transition: all .3s ease-in-out;
@@ -277,7 +276,6 @@ hr {
     }
 
     to {
-        transform: scale(1.5);
         background: var(--color);
     }
 }
