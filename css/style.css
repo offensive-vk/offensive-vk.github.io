@@ -240,49 +240,6 @@ hr {
     border-radius: 20px;
 }
 
-/* .box1 {
-    top: 0px;
-    left: 120px;
-    right: -20px;
-    bottom: 0px;
-}
-
-.box2 {
-    top: 0px;
-    left: -10rem;
-    right: 50px;
-    bottom: 0px;
-}
-
-.box3 {
-    top: 0px;
-    bottom: 30px;
-    left: 130px;
-    right: 0;
-}
-
-.box4 {
-    top: -20px;
-    bottom: 0px;
-    left: -10rem;
-    right: 50px;
-    height: 355px;
-}
-
-.box5 {
-    top: -35px;
-    bottom: 0px;
-    left: 130px;
-    right: 0;
-}
-
-.box6 {
-    top: -35px;
-    bottom: 0px;
-    left: -160px;
-    right: 0;
-} */
-
 .box img {
     float: left;
 }
