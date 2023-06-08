@@ -215,10 +215,11 @@ hr {
     font-family: Arial Nova, sans-serif;
     font-size: 15px;
     line-height: 1.5;
+    border: 2px solid #fff;
 }
 
 .box {
-
+    border: 2px solid #fff;
     flex: 6 / 2;
     margin: 20px;
     padding: 20px;
@@ -238,7 +239,7 @@ hr {
     border-radius: 20px;
 }
 
-.box1 {
+/* .box1 {
     top: 0px;
     left: 120px;
     right: -20px;
@@ -279,7 +280,7 @@ hr {
     bottom: 0px;
     left: -160px;
     right: 0;
-}
+} */
 
 .box img {
     float: left;
@@ -306,7 +307,7 @@ hr {
     transition: background-position, animation 800ms ease-in-out;
 }
 
-.box>a:hover {
+.box > a:hover {
     background-position: -100% 0;
     background-origin: content-box;
     animation: more 800ms ease-in-out both;
@@ -323,7 +324,7 @@ hr {
     }
 }
 
-.box>a>.material-symbols-outlined {
+.box > a >.material-symbols-outlined {
     transform: rotate(190deg);
     transform: translateY(9px);
     border: none;
