@@ -226,6 +226,7 @@ hr {
     background-color: transparent;
     border-radius: 5px;
     width: calc(33.33% - 10px);
+    height: calc(33.33% - 100px);
     /* height: 100px; */
     margin-bottom: 20px;
     position: relative;
