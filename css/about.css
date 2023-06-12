@@ -77,8 +77,17 @@ hr{
     background: linear-gradient(130deg, aqua,magenta, orange);
 }
 h1{
-    color: #fefefe;
-    font-size: 3rem; 
+    color: #000;
+    font-size: 2.8rem; 
+  }
+  .one{
+    font-size: 3.2em;
+    margin: 20px;
+  }
+  .two{
+    font-size: 3rem;
+    margin: 20px;
+    transform: translateX(-40px);
   }
 .myCard {
     margin-top: 7rem;
