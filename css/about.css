@@ -23,7 +23,7 @@ h3{
     -webkit-text-fill-color: transparent;
 }
 .main{
-    display: block;
+    display: grid;
     align-items: center;
     justify-content: center;
 }
@@ -85,7 +85,7 @@ h1{
     background-color: transparent;
     width: 600px;
     height: 700px;
-    transform: translateX(400px);
+    /* transform: translateX(50%); */
     perspective: 1000px;
 
   } 
