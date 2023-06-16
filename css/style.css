@@ -39,7 +39,7 @@
 @media only screen and (max-width: 600px) {
     body{
         display: none;
-        color: #000;
+        background: var(--color3);
     }   
 }
 /* Global Colors */
