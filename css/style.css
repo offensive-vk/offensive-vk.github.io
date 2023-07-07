@@ -97,11 +97,11 @@ body {
     background-color: #000;
     justify-content: space-around;
     resize: both;
-    cursor: url(/raw/cursor.png) auto;
     
-
 }
-
+html, body{
+    cursor: url("/raw/cursor.png"), default;
+}
 h1 {
     float: left;
     font-size: 4rem;
@@ -111,7 +111,6 @@ h1 {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 body::selection {
