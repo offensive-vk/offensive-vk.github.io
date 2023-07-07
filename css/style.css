@@ -1,4 +1,6 @@
 /* Properties For Index.html */
+/* Code SHOULD NOT BE Copied or Stolen at any certain conditions. */
+/* Belongs to respected authors or author.* */
 
 @media only screen and (max-width: 1200px) {
     
@@ -96,6 +98,7 @@ body {
     justify-content: space-around;
     resize: both;
     cursor: url(/raw/cursor.png) auto;
+    
 
 }
 
