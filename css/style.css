@@ -95,6 +95,7 @@ body {
     background-color: #000;
     justify-content: space-around;
     resize: both;
+    cursor: url(/raw/cursor.png) auto;
 
 }
 
