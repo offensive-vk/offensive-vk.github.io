@@ -175,4 +175,7 @@ h1{
 
 
   /* Logo Styling */
-  
+  .last{
+    display: grid;
+    place-items: center;
+  }
