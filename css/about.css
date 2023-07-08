@@ -173,9 +173,11 @@ h1{
     }
   }
 
-
   /* Logo Styling */
   .last{
     display: grid;
     place-items: center;
+  }
+  .logo{
+    margin: 15vmin;
   }
