@@ -100,7 +100,7 @@ body {
     
 }
 html, body{
-    cursor: url("/raw/cursor.png"), default;
+    cursor: url("/raw/cursor.png"), auto;
 }
 h1 {
     float: left;
