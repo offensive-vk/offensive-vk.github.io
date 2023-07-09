@@ -144,10 +144,11 @@ p {
 }
 
 .top {
+    text-align: center;
+    font-size: 20px;
     scroll-behavior: smooth;
     width: 80%;
     font-weight: 200;
-    font-size: 2em;
     color: #fff;
     text-decoration: none;
     background: linear-gradient(60deg, aqua, magenta, orange);
@@ -155,7 +156,7 @@ p {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: border-bottom , background-color 500ms ease-in-out;
+    transition: border-bottom 500ms ease-in-out;
 }
 
 .home,
