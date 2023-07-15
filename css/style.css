@@ -1,6 +1,6 @@
 /* Properties For Index.html */
 /* Code SHOULD NOT BE Copied or Stolen at any certain conditions. */
-/* Belongs to respected authors or author.* */
+/* Belongs to respected authors and developers.* */
 
 @media only screen and (max-width: 1200px) {
     
@@ -102,7 +102,6 @@ body {
 h1 {
     float: left;
     font-size: 4rem;
-    /* font-family: "Arial Nova Light"; */
     background: linear-gradient(130deg, aqua, magenta, orange);
     background-color: #fff;
     background-clip: text;
@@ -117,7 +116,6 @@ body::selection {
 h2 {
     text-align: center;
     font-size: 3rem;
-    /* font-family: "Arial Nova Light"; */
     background: linear-gradient(130deg, aqua, magenta, orange);
     background-color: #fff;
     background-clip: text;
@@ -128,7 +126,6 @@ h2 {
 h3 {
     align-self: center;
     font-size: 3.2rem;
-    /* font-family: "Arial Nova Light"; */
     background: linear-gradient(130deg, aqua, magenta, orange);
     background-color: #fff;
     background-clip: text;
@@ -137,7 +134,6 @@ h3 {
 }
 
 p {
-    /* font-family: 'Barlow Condensed', sans-serif; */
     font-size: 1.35rem;
     margin-left: 20px;
     color: #fff;
@@ -179,7 +175,6 @@ p {
 }
 header {
     align-items: center;
-    border: 2px solid #000;
     position: fixed;
     position: sticky;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
@@ -449,3 +444,6 @@ a:hover .material-symbols-outlined {
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
+
+
+/* End of File */
