@@ -38,6 +38,7 @@ h3{
     border-bottom: 1px solid;
 }
 header {
+    border: 2px solid #000;
     align-items: center;
     border-radius: 14px;
     background: linear-gradient(45deg, aqua, magenta, orange);

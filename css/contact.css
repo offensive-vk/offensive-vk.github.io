@@ -44,6 +44,7 @@ p{
     display: inline-block;
 }
 header {
+    border: 2px solid #000;
     align-items: center;
     border-radius: 14px;
     background: linear-gradient(45deg, aqua, magenta, orange);

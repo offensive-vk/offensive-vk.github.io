@@ -176,6 +176,7 @@ p {
 header {
     align-items: center;
     position: fixed;
+    border: 2px solid #000;
     position: sticky;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
