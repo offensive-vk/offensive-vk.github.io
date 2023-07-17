@@ -100,15 +100,15 @@ h1{
     animation: appear 700ms cubic-bezier(0.215, 0.610, 0.355, 1);
     will-change: transform;
     transform-style: preserve-3d;
-  } 
-  @keyframes appear{
+} 
+@keyframes appear{
     0% {
       transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -750.01, 0, 1) rotateZ(360deg);
     }
     100% {
       transform: none;
     }
-  }
+}
   .innerCard {
     position: relative;
     width: 100%;
