@@ -15,13 +15,27 @@
             scroll-behavior: smooth;
         }
         body{
-            
+
             font-size: 1em;
-            margin: 0px;
-            padding: 0px;
-            color: #fff;
+            margin: 0;
+            padding: 0;
             background-color: #000; 
             overflow-X: hidden;
+        }
+        body::before {
+            content: "";
+            background-image: url(shristi/1.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.19; /* Adjust the opacity value to make it less visible */
+            pointer-events: none; /* This prevents the background image from interfering with the content */
+            z-index: -1; /* Place the background image behind the content */
         }
         h1{
             /* writing-mode: vertical-lr; vertical orientation of text with flex only.*/
