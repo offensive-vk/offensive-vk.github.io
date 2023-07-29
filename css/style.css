@@ -134,7 +134,7 @@ h3 {
 }
 
 p {
-    font-size: 1.35rem;
+    font-size: clamp(1rem, 1.35rem, 2rem);
     margin-left: 20px;
     color: #fff;
 }
