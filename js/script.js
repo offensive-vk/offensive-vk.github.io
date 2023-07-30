@@ -47,7 +47,6 @@ document.querySelector(".brand").onmouseover = event => {
     }, 30);
 }
 
-
 // Clock
 const display = () => {
     let now = new Date();
