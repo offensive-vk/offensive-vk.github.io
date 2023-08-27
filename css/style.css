@@ -44,6 +44,7 @@
         background: var(--color3);
     }   
 }
+
 /* Global Colors */
 :root {
     --color: linear-gradient(45deg, aqua, magenta, orange);
@@ -57,38 +58,7 @@
     --light-blue-percent: rgb(24, 49, 97);
 }
 
-/* properties for arrow buttons of webpage */
-::-webkit-scrollbar-button {
-    background-color: #fff;
-    border-bottom-left-radius: -44px;
-    border-top-left-radius: 44px;
-    border-bottom-left-radius: -44px;
-    border-top-left-radius: 44px;
-}
-
-/* width and color of scrollbar track */
-::-webkit-scrollbar {
-    width: 20px;
-    height: 10px;
-    border-radius: 40px;
-    background-color: #000;
-
-}
-
-/* color of scrollbar handle */
-::-webkit-scrollbar-thumb {
-    border-radius: 40px;
-    background: linear-gradient(45deg, aqua, magenta, orange);
-
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p::selection {
+h1, h2, h3, h4, h5, h6, p::selection {
     background-color: #000;
 }
 body::selection {
@@ -103,7 +73,6 @@ body {
     padding: 25px;
     color: #fff;
     background-color: #000;
-    justify-content: space-around;
     resize: both;   
 }
 h1 {
@@ -151,8 +120,42 @@ p {
 .top:hover {
     border-bottom: 1px solid;
 }
+header {
+    align-items: center;
+    position: fixed;
+    border: 2px solid #000;
+    position: sticky;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    background: linear-gradient(45deg, aqua, magenta, orange);
+    background-size: 200% 100%;
+    transition: background-position 0.7s ease-in-out;
+}
 
-/* Main work as on Sunday*/
+header:hover {
+    background-position: -100% 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li a {
+    width: 90%;
+    font-weight: 300;
+    font-size: 2.1em;
+    color: #fff;
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    border-radius: 99px;
+    background: linear-gradient(130deg, aqua, magenta, orange);
+}
+
+/* Content  */
 .first {
     display: flex;
     flex-direction: column;
@@ -229,41 +232,6 @@ p {
 .second > p{
     margin: 0 auto;
 }
-header {
-    align-items: center;
-    position: fixed;
-    border: 2px solid #000;
-    position: sticky;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 14px;
-    background: linear-gradient(45deg, aqua, magenta, orange);
-    background-size: 200% 100%;
-    transition: background-position 0.7s ease-in-out;
-}
-
-header:hover {
-    background-position: -100% 0;
-}
-
-ul {
-    display: flex;
-    justify-content: space-around;
-}
-
-li a {
-    width: 90%;
-    font-weight: 300;
-    font-size: 2.1em;
-    color: #fff;
-    text-decoration: none;
-}
-
-hr {
-    border: none;
-    border-radius: 99px;
-    background: linear-gradient(130deg, aqua, magenta, orange);
-}
-
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -368,7 +336,6 @@ a:hover .material-symbols-outlined {
 }
 
 /* Third Container */
-
 .third {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -379,7 +346,6 @@ a:hover .material-symbols-outlined {
     flex-direction: column;
 }
 
-/* New */
 .fr {
     padding: 14px;
     border: 2px solid #000;
@@ -426,7 +392,6 @@ a:hover .material-symbols-outlined {
 }
 
 /* Theme Toggle */
-
 .toggle-btn{
     display: grid;
     place-items: center;
@@ -481,7 +446,6 @@ a:hover .material-symbols-outlined {
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
-
 .label::before {
     position: absolute;
     content: "";
@@ -501,7 +465,6 @@ a:hover .material-symbols-outlined {
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
-/* End of File */
 
 /* Footer Styles */
 footer{
@@ -510,7 +473,7 @@ footer{
 .navbar-links{
     margin: 25px;
     color: rgb(239, 255, 242);
-    background-color: rgb(10, 10, 10);
+    background-color: transparent;
     font-family: 'IBM Plex Mono', Arial Nova Light;
     display: flex;
     flex-direction: column;
@@ -545,7 +508,7 @@ footer{
     top: 0;
     height: 100%;
     width: 0%;
-    background: linear-gradient(65deg, transparent, var(--blue), var(--light-blue-percent), var(--light-green));
+    background: linear-gradient(75deg, transparent, var(--blue), var(--light-blue-percent), var(--light-green));
 }
 
 .link:hover::before {
@@ -556,3 +519,6 @@ footer{
 .link-block {
     display: block;
 }
+
+
+/* End of File */
