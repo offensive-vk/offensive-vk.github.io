@@ -32,8 +32,8 @@
         transform: translate(-50%, -50%);
         text-align: center;
         font-size: 5rem;
-        color: magenta;
-        background-color: #000;
+        color: #000;
+        background: var(--color2);
         padding: 20px;
         border-radius: 15px;
     }
@@ -67,7 +67,6 @@ body::selection {
 
 body {
     user-select: none;
-    /* font-family: "Arial Nova Light"; */
     scroll-behavior: smooth;
     font-size: 1em;
     margin: 45px;
@@ -78,7 +77,6 @@ body {
     resize: both;   
     cursor: progress;
 }
-
 
 h1 {
     font-size: 4rem;
@@ -236,7 +234,7 @@ hr {
         border-color: transparent;
     }
     50% {
-        border-color: #fff;
+        border-color: #00ff75;
     }
 }
 /* #typewriter-paragraph {
@@ -253,9 +251,10 @@ hr {
 
 /* CSS for the word highlight animation */
 .animated-word {
-    animation: colorChange 0.5s ease;
+    animation: colorChange 0.5s ease, blink-caret 0.3s linear forwards;
     display: inline-block;
     margin-right: 7px;
+    border-right: 8.2px solid transparent;
     transition: all 0.4s ease-in-out;
 }
 .animated-word:hover{
@@ -266,10 +265,14 @@ hr {
 /* Keyframes for the word color change animation */
 @keyframes colorChange {
     0% {
+        border-right: none;
         color: black;
     }
     100% {
-        transform: translateY(100px);
+        
+        opacity: 0.4;
+        font-style: italic;
+        /* transform: translateY(100px); */
         font-family: monospace;
         color: cyan;
     }
