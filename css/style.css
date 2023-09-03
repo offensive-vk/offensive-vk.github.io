@@ -1,5 +1,5 @@
 /* Properties For Index.html */
-/* Code SHOULD NOT BE Copied or Stolen at any certain conditions. */
+/* Properties | Code SHOULD NOT BE Copied or Stolen at any certain conditions. */
 /* Belongs to respected authors and developers.* */
 
 @media only screen and (max-width: 1200px) {
@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6, p::selection {
 body::selection {
     background-color: #000;
 }
+
 body {
     user-select: none;
     /* font-family: "Arial Nova Light"; */
@@ -172,6 +173,7 @@ hr {
     border-radius: 10px;
     /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
+
 .first > .widgets > .clock{
     font-family: 'IBM Plex Mono', monospace;
     font-size: clamp(2rem, 8vw, 10rem);
