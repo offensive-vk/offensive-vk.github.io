@@ -1,23 +1,29 @@
-//Global JavaScript File for domain 'offensive-vk.github.io/' that contains all the js functions and modules.
+/* 
+Global JavaScript File for domain 'offensive-vk.github.io/' that contains all the js functions and modules.
+*/
 
+const root = document.documentElement;
+const head = document.head;
+const body = document.body;
 
+var header = document.querySelector("header");
 var btn = document.querySelector('#checkbox');
 var text = document.querySelectorAll('p');
-var body = document.body;
-var head = document.head;
-var root = document.documentElement;
-var isLightTheme = true;
+var footer = document.querySelector("footer");
 
+var isLightTheme = true;
 btn.addEventListener('click', function () {
     if (isLightTheme) {
-        body.style.backgroundColor = "#fefefe";
+        body.style.backgroundColor = "#f5f5f5";
         body.style.color = "";
+        footer.style.color = "#000";
         text.forEach(function (p) {
             p.style.color = "#000";
         });
     } else {
         body.style.backgroundColor = "#000";
         body.style.color = "";
+        
         text.forEach(function (p) {
             p.style.color = "";
         });
