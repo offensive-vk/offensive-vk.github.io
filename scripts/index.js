@@ -34,6 +34,16 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+/*
+
+* @author: Vedansh Khandelwal
+* @lang: JavaScript (ES6+), TypeScript
+* @description: Private Development and Testing Website.
+* @root: true.
+* @copyright: Copyright (c) by Respected Authors. All rights reserved.
+* @year: 2023
+
+*/
 var Methods = /** @class */ (function () {
     function Methods() {
     }
@@ -87,5 +97,5 @@ function updateIP() {
         });
     });
 }
-setTimeout(updateIP, 2000);
+setTimeout(updateIP, 2500);
 updateIP();
