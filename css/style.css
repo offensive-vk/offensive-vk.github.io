@@ -76,6 +76,7 @@ body {
     background-color: rgb(13, 30, 36);
     /* background-color: #000; */
     resize: both;   
+    cursor: progress;
 }
 h1 {
     font-size: 4rem;

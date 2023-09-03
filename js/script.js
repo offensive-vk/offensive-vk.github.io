@@ -80,7 +80,6 @@ const start = () => {
 }
 document.addEventListener("DOMContentLoaded", start);
 
-
 // Navbar- Links
 for (const eachLink of document.getElementsByClassName("link")) {
     eachLink.onmousemove = (e) => {
