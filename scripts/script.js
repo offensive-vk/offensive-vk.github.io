@@ -104,6 +104,7 @@ for (const eachLink of document.getElementsByClassName("link")) {
 
 document.addEventListener('DOMContentLoaded', async () => {
     const paragraphElement = document.getElementById('typewriter-paragraph');
+    paragraphElement.setAttribute('align', 'justify');
     const text = `Coding has become an essential skill in today's world. With the increasing use of technology, software engineers and developers are in high demand. They create applications and programs that make our lives easier, more efficient, and more productive. However, with great power comes great responsibility. As we rely more on technology, we must also take steps to ensure that our information is secure. Cybersecurity is the practice of protecting computers, servers, mobile devices, electronic systems, networks, and data from digital attacks, theft, or damage. Without proper cybersecurity measures, sensitive information such as personal data, financial information, and business secrets can be compromised. Coding and cybersecurity go hand in hand. A skilled programmer can create secure and reliable systems that protect against digital threats. As a result, companies and organizations are always on the lookout for individuals with expertise in coding and cybersecurity. Moreover, coding is not just limited to professionals. With online coding resources and coding bootcamps, anyone can learn to code. This empowers individuals to create their own applications and websites, start their own businesses, and contribute to the tech industry.`;
 
     // Split the text into words
