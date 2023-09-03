@@ -78,6 +78,8 @@ body {
     resize: both;   
     cursor: progress;
 }
+
+
 h1 {
     font-size: 4rem;
     background: linear-gradient(130deg, aqua, magenta, orange);
@@ -227,6 +229,52 @@ hr {
         background-position: -200% center;
     }
 }
+
+/* Blinking cursor animation */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #fff;
+    }
+}
+/* #typewriter-paragraph {
+    animation: typing 3s linear;
+}
+@keyframes typing {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+} */
+
+/* CSS for the word highlight animation */
+.animated-word {
+    animation: colorChange 0.5s ease;
+    display: inline-block;
+    margin-right: 7px;
+    transition: all 0.4s ease-in-out;
+}
+.animated-word:hover{
+    color: #00ff75;
+    font-family: monospace;
+    cursor: pointer;
+}
+/* Keyframes for the word color change animation */
+@keyframes colorChange {
+    0% {
+        color: black;
+    }
+    100% {
+        transform: translateY(100px);
+        font-family: monospace;
+        color: cyan;
+    }
+}
+/* End of First */
 
 /* Second container */
 .second {
