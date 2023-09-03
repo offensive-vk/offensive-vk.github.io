@@ -1,9 +1,11 @@
 //Global JavaScript File for domain 'offensive-vk.github.io/' that contains all the js functions and modules.
-//DO NOT EDIT or REPRODUCE THIS FILE..  
+
 
 var btn = document.querySelector('#checkbox');
 var text = document.querySelectorAll('p');
 var body = document.body;
+var head = document.head;
+var root = document.documentElement;
 var isLightTheme = true;
 
 btn.addEventListener('click', function () {

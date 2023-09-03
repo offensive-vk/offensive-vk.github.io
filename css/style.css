@@ -73,7 +73,8 @@ body {
     margin: 45px;
     padding: 25px;
     color: #fff;
-    background-color: #000;
+    background-color: rgb(13, 30, 36);
+    /* background-color: #000; */
     resize: both;   
 }
 h1 {
@@ -350,7 +351,7 @@ a:hover .material-symbols-outlined {
 
 .fr {
     padding: 14px;
-    border: 2px solid #000;
+    border: 2px solid transparent;
     display: flex;
     margin: 20px;
     transition: all 700ms ease-in-out;
