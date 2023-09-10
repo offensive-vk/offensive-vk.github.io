@@ -4,9 +4,10 @@
 * @lang: JavaScript (ES6+), TypeScript
 * @description: Private Development and Testing Website.
 * @root: true.
+* @type: Website | Portfolio <Soon>.
 * @copyright: Copyright (c) by Respected Authors. All rights reserved.
 * @year: 2023
-
+* @returns: Pure JavaScript Output.
 */
 
 const root = document.documentElement;
@@ -125,25 +126,24 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 // Box Appearance
-    // JavaScript to trigger the fade-in animation when scrolling
-    const items = document.querySelectorAll('.box');
+const items = document.querySelectorAll('.box');
 
-    function checkScroll() {
-        items.forEach((item) => {
-            const itemPosition = item.getBoundingClientRect().top;
-            const screenHeight = window.innerHeight;
+function checkScroll() {
+    items.forEach((item) => {
+        const itemPosition = item.getBoundingClientRect().top;
+        const screenHeight = window.innerHeight;
 
-            if (itemPosition < screenHeight * 0.75) {
-                item.classList.add('active');
-            }
-            else{
-                item.classList.remove('active');
-            }
-        });
-    }
+        if (itemPosition < screenHeight * 0.75) {
+            item.classList.add('active');
+        }
+        else{
+            item.classList.remove('active');
+        }
+    });
+}
 
-    window.addEventListener('scroll', checkScroll);
-    window.addEventListener('load', checkScroll);
+window.addEventListener('scroll', checkScroll);
+window.addEventListener('load', checkScroll);
 
 // Dropdown
 document.addEventListener("DOMContentLoaded", function () {
@@ -155,3 +155,5 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+/* End */
