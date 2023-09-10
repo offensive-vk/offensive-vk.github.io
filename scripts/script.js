@@ -144,3 +144,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     window.addEventListener('scroll', checkScroll);
     window.addEventListener('load', checkScroll);
+
+// Dropdown
+document.addEventListener("DOMContentLoaded", function () {
+    const sections = document.querySelectorAll('.js');
+    sections.forEach((section) => {
+        const title = section.querySelector('.js-title');
+        title.addEventListener('click', () => {
+            section.classList.toggle('open');
+        });
+    });
+});
