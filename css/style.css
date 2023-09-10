@@ -311,10 +311,15 @@ hr {
     height: calc(33.33% - 100px);
     margin-bottom: 20px;
     position: relative;
+    opacity: 0;
+    transform: translateY(50px);
     transition: all .3s ease-in-out;
 
 }
-
+.box.active {
+    opacity: 1;
+    transform: translateY(0);
+}
 .box:hover {
     background-color: #4e6057;
     transform: scale(0.98);

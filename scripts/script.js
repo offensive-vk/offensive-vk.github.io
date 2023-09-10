@@ -123,3 +123,24 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
     applyWordAnimation();
 });
+
+// Box Appearance
+    // JavaScript to trigger the fade-in animation when scrolling
+    const items = document.querySelectorAll('.box');
+
+    function checkScroll() {
+        items.forEach((item) => {
+            const itemPosition = item.getBoundingClientRect().top;
+            const screenHeight = window.innerHeight;
+
+            if (itemPosition < screenHeight * 0.75) {
+                item.classList.add('active');
+            }
+            else{
+                item.classList.remove('active');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', checkScroll);
+    window.addEventListener('load', checkScroll);
