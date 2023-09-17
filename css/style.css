@@ -449,22 +449,23 @@ a:hover .material-symbols-outlined {
     display: grid;
     grid-template-columns: fit-content;
     gap: 8px;
-    overflow: hidden;
 }
 .js {
     background-color: transparent;
     /* border: 1px solid #ccc; */
-    margin: 10px;
+    margin: 4.5px;
     padding: 10px;
     cursor: pointer;
+    border: 1.5px solid transparent;
     transition: all .3s ease-in-out;
 }
 .js:hover{
     border: 1.5px solid #fff;
-    background-color: #dfdfd7;
+    background-color: #4e6057;
     color: #000;
 }
 .js-title {
+    text-align: center;
     background: linear-gradient(130deg, aqua, magenta, orange);
     background-color: #fff;
     background-clip: text;
@@ -478,9 +479,6 @@ a:hover .material-symbols-outlined {
     
 }
 
-.js-title:hover ~ .js{
-    
-}
 .js-content {
     color: #dfdfd7;
     max-height: 0;
@@ -542,37 +540,7 @@ a:hover .material-symbols-outlined {
     height: 80vh;
     width: 70vw;
 }
-/*
 
-.js::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    left: -5px;
-    margin: auto;
-    width: 100vw;
-    height: 100vh;
-    border-radius: 10px;
-    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
-    z-index: -10;
-    pointer-events: none;
-    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.js::after {
-    content: "";
-    z-index: -1;
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
-    transform: translate3d(0, 0, 0) scale(0.95);
-    filter: blur(30px);
-}
-
-.js:hover::after {
-    filter: blur(30px);
-}
-*/
 /* Fourth Section - End */
 
 /* Theme Toggle */
