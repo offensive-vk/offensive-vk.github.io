@@ -676,7 +676,8 @@ footer{
     margin-left: 10px;
     margin-right: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
-    font-size: clamp(2em, 8vw, 7em);
+    /* font-size: clamp(2em, 8vw, 7em); */
+    font-size: 5vw;
     padding: clamp(0.25em, 1vw, 1em) clamp(1em, 4vw, 4em);
     position: relative;
 }
