@@ -544,10 +544,10 @@ a:hover .material-symbols-outlined {
     0 0 2rem 0 yellow;
 }
 .js .js-content ._sample img{
-    border-radius: 12px;
+    border-radius: 15px;
     scale: 0.7;
-    height: 80vh;
-    width: 70vw;
+    height: 85vh;
+    width: 75vw;
 }
 
 /* Fourth Section - End */
