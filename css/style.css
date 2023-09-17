@@ -449,6 +449,7 @@ a:hover .material-symbols-outlined {
     display: grid;
     grid-template-columns: fit-content;
     gap: 8px;
+    overflow: hidden;
 }
 .js {
     background-color: transparent;
@@ -490,7 +491,7 @@ a:hover .material-symbols-outlined {
 }
 .js-para {
     margin: 4px auto;
-    padding: 12px;
+    padding: 8px;
     font-size: 2.5ch;
 }
 .js > .js-content ._sample{
@@ -528,7 +529,7 @@ a:hover .material-symbols-outlined {
     margin-right: 12px;
 }
 .js .js-content ._sample a::before:hover{
-    transform: translateY(50px);
+    transform: translateY(28px);
 }
 .js .js-content ._sample a:hover{
     background-color: yellow;
