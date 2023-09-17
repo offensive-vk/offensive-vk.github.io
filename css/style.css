@@ -1,6 +1,13 @@
-/* Properties For Index.html */
-/* Properties | Code SHOULD NOT BE Copied or Stolen at any certain conditions. */
-/* Belongs to respected authors and developers.* */
+/* Properties For index.html */
+/* 
+* @description: Root CSS File for Website (https://offensive-vk.github.io/)
+* @dated: September 1, 2023
+* @isRoot?: true.
+* @Content: Personal Website. 
+* @Lang: CSS (Cascading Style Sheets v3) | Sass .
+* @Copyright (c) by Vedansh <offensive-vk>. All rights reserved.
+*/
+/* This File Belongs to respected authors and developers.* */
 
 @media only screen and (max-width: 1200px) {
     
@@ -549,7 +556,6 @@ a:hover .material-symbols-outlined {
     height: 85vh;
     width: 75vw;
 }
-
 /* Fourth Section - End */
 
 /* Theme Toggle */
