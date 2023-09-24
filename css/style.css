@@ -86,8 +86,8 @@ body {
     user-select: none;
     scroll-behavior: smooth;
     font-size: 1em;
-    margin: 45px;
-    padding: 25px;
+    margin: 20px;
+    padding: 15px;
     color: #fff;
     background-color: rgb(13, 30, 36);
     /* background-color: #000; */
@@ -455,15 +455,14 @@ a:hover .material-symbols-outlined {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    /* display: grid;
-    grid-template-columns: min-content; */
-    align-content: center;
+    justify-items: center;
+    align-items: center;
     gap: 18px;
-    overflow: hidden;
+    overflow: visible;
 }
 .js {
     height: auto;
-    width: 98%;
+    width: 1300px;
     background-color: transparent;
     /* border: 1px solid #ccc; */
     margin: 3.2px;
@@ -474,7 +473,7 @@ a:hover .material-symbols-outlined {
 }
 .js:hover{
     border: 1.5px solid #fff;
-    background-color: #4e6057;
+    background-color: #161616;
     border-radius: 22px;
 }
 .js-title {
@@ -491,12 +490,14 @@ a:hover .material-symbols-outlined {
     transition: all .3s ease-in-out;
     
 }
-
+.js-title:hover{
+    letter-spacing: 5.5px;
+}
 .js-content {
     border-radius: 12px;
     color: #dfdfd7;
     max-height: 0;
-    overflow: hidden;
+    overflow: visible;
     transition: max-height 750ms ease-in-out, opacity 800ms ease-in-out;
     opacity: 0;
 }
@@ -521,7 +522,7 @@ a:hover .material-symbols-outlined {
     box-shadow:             
     0 2rem 2rem 0 cyan,
     0 3rem 3rem 0 magenta,
-    0 0rem 6rem 0 orange;
+    0 0rem 3.5rem 0 orange;
 }
 .js .js-content ._sample a{
     text-decoration: none;
@@ -535,7 +536,7 @@ a:hover .material-symbols-outlined {
     padding: 20px;
     text-align: center;
     transition: all .2s linear;
-    line-height: 1.7;
+    line-height: 1.3;
     background-color: #000;
 }
 .js .js-content ._sample a::before{
@@ -559,6 +560,7 @@ a:hover .material-symbols-outlined {
     scale: 0.7;
     height: 85vh;
     width: 75vw;
+    align-self: flex-end;
 }
 /* Fourth Section - End */
 
