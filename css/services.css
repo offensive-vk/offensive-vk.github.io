@@ -7,7 +7,7 @@ body{
     margin: 45px;
     padding: 25px;
     color: #fff;
-    background-color: #000;
+    background-color: rgb(13, 30, 36);
     justify-content: space-around;
     resize: both;
 }
