@@ -417,12 +417,13 @@ a:hover .material-symbols-outlined {
 .fr {
     border: 1px solid transparent;
     padding: 14px;
-    border: 2px solid transparent;
     display: flex;
     margin: 20px;
     transition: all 0.4s ease-in-out;
     position: relative;
     overflow: hidden;
+    font-size: 6px;
+    gap: 7.7px;
 }
 
 .fr:hover {
@@ -432,18 +433,18 @@ a:hover .material-symbols-outlined {
     2rem 0rem 2rem 0 cyan,
     2.5rem 0rem 0rem 0 magenta,
     3rem 0rem 2rem 0 orange; */
-    box-shadow: magenta 0rem 0rem 2rem, cyan 0rem 1.5rem 2.5rem, orange 1.2rem 0rem 3rem;
+    box-shadow: magenta 0rem 0rem 2rem, cyan 0rem 1.5rem 2.2rem, orange 1.2rem 0rem 3rem;
 }
 
 .img {
     border: none;
-    border-radius: 22px;
+    border-radius: 19px;
     margin: 2.1em;
-    transition: all 500ms ease-in-out;
+    transition: all 350ms ease-in-out;
 }
 
 .img:hover {
-    transform: rotateZ(360deg) scale(1.2);
+    transform: rotateZ(360deg)
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
