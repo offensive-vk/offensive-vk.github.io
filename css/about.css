@@ -1,4 +1,4 @@
-/* About us section*/
+/* About us section */
 :root{
     --color: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
     --color2: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
@@ -9,6 +9,7 @@ body{
     padding: 25px;
     color: #fff;
     background-color: rgb(13, 30, 36);
+    /* background-color: #fff; */
     justify-content: space-around;
     resize: both;
 }

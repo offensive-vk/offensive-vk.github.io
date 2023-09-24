@@ -31,7 +31,7 @@ btn.addEventListener('click', function () {
     } else {
         body.style.backgroundColor = "rgb(13, 30, 36)";
         body.style.color = "";
-        
+        footer.style.color = "";
         text.forEach(function (p) {
             p.style.color = "";
         });
