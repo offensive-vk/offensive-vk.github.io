@@ -29,7 +29,7 @@ btn.addEventListener('click', function () {
             p.style.color = "#000";
         });
     } else {
-        body.style.backgroundColor = "#000";
+        body.style.backgroundColor = "rgb(13, 30, 36)";
         body.style.color = "";
         
         text.forEach(function (p) {
