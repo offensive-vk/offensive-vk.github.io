@@ -444,7 +444,7 @@ a:hover .material-symbols-outlined {
 }
 
 .img:hover {
-    transform: rotateZ(360deg)
+    transform: rotateZ(360deg);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
@@ -453,14 +453,17 @@ a:hover .material-symbols-outlined {
 .fourth{
     margin-top: 20px;
     margin-bottom: 20px;
-    display: grid;
-    grid-template-columns: min-content;
+    display: flex;
+    flex-direction: column;
+    /* display: grid;
+    grid-template-columns: min-content; */
+    align-content: center;
     gap: 18px;
     overflow: hidden;
 }
 .js {
     height: auto;
-    width: 85%;
+    width: 98%;
     background-color: transparent;
     /* border: 1px solid #ccc; */
     margin: 3.2px;
@@ -533,13 +536,13 @@ a:hover .material-symbols-outlined {
     text-align: center;
     transition: all .2s linear;
     line-height: 1.7;
-
+    background-color: #000;
 }
 .js .js-content ._sample a::before{
     content: '';
     position: relative;
     inset: 0;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     margin-right: 12px;
 }
 .js .js-content ._sample a::before:hover{
@@ -549,7 +552,7 @@ a:hover .material-symbols-outlined {
     background-color: #dfdfd7;
     color: #000;
     box-shadow:     
-    0 0 2rem 0 yellow;
+    0 0 2rem 0 cyan, 0 0 2.5rem orange;
 }
 .js .js-content ._sample img{
     border-radius: 15px;
