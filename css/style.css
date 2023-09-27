@@ -497,7 +497,7 @@ a:hover .material-symbols-outlined {
     border-radius: 12px;
     color: #dfdfd7;
     max-height: 0;
-    overflow: visible;
+    overflow: hidden;
     transition: max-height 750ms ease-in-out, opacity 800ms ease-in-out;
     opacity: 0;
 }
