@@ -478,7 +478,7 @@ a:hover .material-symbols-outlined {
 }
 .js-title {
     text-align: center;
-    background: linear-gradient(130deg, aqua, magenta, orange);
+    background: linear-gradient(255deg, aqua, magenta);
     background-color: #fff;
     background-clip: text;
     -webkit-background-clip: text;
