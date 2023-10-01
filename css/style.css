@@ -225,7 +225,7 @@ hr {
 
 @keyframes background-pan {
     from {
-        box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
         background-position: 0% center;
     }
     to {
@@ -243,17 +243,6 @@ hr {
         border-color: #00ff75;
     }
 }
-/* #typewriter-paragraph {
-    animation: typing 3s linear;
-}
-@keyframes typing {
-    0% {
-        opacity: 0.1;
-    }
-    100% {
-        opacity: 1;
-    }
-} */
 
 /* CSS for the word highlight animation */
 .animated-word {
