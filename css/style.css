@@ -92,7 +92,9 @@ body {
     background-color: rgb(13, 30, 36);
     /* background-color: #000; */
     resize: both;   
-    cursor: progress;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
 }
 
 h2,h3 {
@@ -170,8 +172,11 @@ hr {
 .first {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    flex-wrap: wrap;
+    margin: 30px;
+    max-width: 1280px;
 }
 .first > .widgets {
     display: grid;
