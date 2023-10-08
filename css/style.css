@@ -73,6 +73,9 @@
     --light-blue: rgb(33, 150, 243);
     --light-green: rgb(95, 255, 180);
     --light-blue-percent: rgb(24, 49, 97);
+
+    --max-width: 1280px;
+    --max-height: 99999px;
 }
 
 h1, h2, h3, h4, h5, h6, p::selection {
@@ -177,7 +180,7 @@ hr {
     margin-bottom: 30px; */
     flex-wrap: wrap;
     margin: 30px;
-    max-width: 1280px;
+    max-width: var(--max-width);
 }
 .first > .widgets {
     display: grid;
@@ -286,6 +289,7 @@ hr {
 .second {
     margin-top: 30px;
     margin-bottom: 30px;
+    max-width: var(--max-width);
 }
 .second > p{
     margin: 0 auto;
@@ -315,19 +319,19 @@ hr {
     margin-bottom: 20px;
     position: relative;
     opacity: 0;
-    transform: translateY(50px);
-    transition: all .3s ease-in-out;
+    transform: translateY(50px) rotateZ(22deg);
+    transition: all .5s ease-in-out;
 
 }
 .box.active {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) rotateZ(0deg);
 }
 .box:hover {
     background-color: #4e6057;
     transform: scale(0.98);
     border-radius: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 2.2rem #feb484;
 }
 
 .box img {
@@ -352,13 +356,15 @@ hr {
     padding: 12px;
     margin: 100px;
     background-size: 200% 100%;
-    transition: background-position, animation 800ms ease-in-out;
+    /* transition: background-position 800ms ease, animation 800ms ease-in-out; */
+    transition: all 800ms ease;
+
 }
 
 .box > a:hover {
-    background-position: -100% 0;
-    background-origin: content-box;
-    animation: more 800ms ease-in-out both;
+    background-position: -200% 0;
+    background-position: center center;
+    animation: more 800ms ease;
 }
 
 @keyframes more {
@@ -402,6 +408,7 @@ a:hover .material-symbols-outlined {
 .third {
     margin-top: 30px;
     margin-bottom: 30px;
+    max-width: var(--max-width);
 }
 
 .frameworks {
