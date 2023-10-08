@@ -4,8 +4,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        height: 4px;
-        background: linear-gradient(to right, #00c6ff, orange);
+        height: 5px;
         background-size: 200% 100%;
         background-image: linear-gradient(to right, cyan, magenta, orange);
         width: 100%;
