@@ -437,17 +437,19 @@ a:hover .material-symbols-outlined {
     3rem 0rem 2rem 0 orange; */
     box-shadow: magenta 0rem 0rem 2rem, cyan 0rem 1.5rem 2.2rem, orange 1.2rem 0rem 3rem;
 }
-
+.fr p{
+    font-size: 1.2rem;
+}
 .img {
     border: none;
     border-radius: 19px;
-    margin: 2.1em;
+    margin: 2.4em;
     transition: all 350ms ease-in-out;
 }
 
 .img:hover {
-    transform: rotateZ(360deg);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transform: skewX(-20deg);
+    box-shadow: 0 0 2.5rem #d4d4d4;
 }
 
 /* Fourth Section */
