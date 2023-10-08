@@ -90,10 +90,10 @@ body {
     padding: 15px;
     color: #fff;
     background-color: rgb(13, 30, 36);
-    /* background-color: #000; */
-    resize: both;   
+    /* resize: both;    */
     cursor: default;
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -129,14 +129,15 @@ p {
     transition: border-bottom 500ms ease-in-out;
 }
 
-.home,
-.top:hover {
+.home, .top:hover {
     border-bottom: 1px solid;
 }
 header {
+    max-width: 1350px;
+    width: 1280px;
     align-items: center;
     position: fixed;
-    border: 2px solid #000;
+    border: 1px solid #000;
     position: sticky;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
@@ -182,11 +183,9 @@ hr {
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
-    max-width: calc(1024px - 90vh);
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 .first > .widgets > .clock{
@@ -205,7 +204,7 @@ hr {
 .first > .widgets > .brand{
     font-family: 'IBM Plex Mono', monospace;
     font-size: clamp(2rem, 10vw, 10rem);
-    margin: 10px;
+    margin: 7.5px;
     padding: 0rem clamp(1rem, 2vw, 3rem);
     border-radius: clamp(0.4rem, 0.75vw, 1rem);
     animation: background-pan 3.5s linear infinite;
@@ -222,7 +221,11 @@ hr {
     font-size: 3.5em;
     line-height: 1.4em;
     font-weight: bold;
-
+    transition: all .3s ease; 
+}
+.first > .widgets > .slogan:hover {
+    letter-spacing: 2.2px;
+    visibility: collapse;
 }
 /*  box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5) 
     text-shadow: 0 0 20px rgba(77, 166, 255, 0.8);
