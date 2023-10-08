@@ -290,7 +290,7 @@ hr {
 .second {
     margin-top: 30px;
     margin-bottom: 30px;
-    max-width: var(--max-width);
+    max-width: 1280px;
 }
 .second > p{
     margin: 0 auto;

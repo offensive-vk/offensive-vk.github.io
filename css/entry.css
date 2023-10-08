@@ -1,12 +1,33 @@
-#entry-loader{
-    background-color: rgb(10, 10, 10); 
+#entry-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(10, 10, 10);
     display: grid;
     height: 100vh;
-    margin: 0px;
+    width: 100vw;
+    margin: 0;
     overflow: hidden;
     place-items: center;
     color: #fff;
-    z-index: 99999;
+    z-index: 9998;
+}
+/* #entry-loader::before,
+#entry-loader::after {
+    content: "Hello Bro ";
+    color: cyan;
+    font-size: 4.4rem;
+    background-color: rgb(10, 10, 10); 
+    position: absolute;
+    margin: 0px;
+    top: 50%;
+    bottom: 50%;
+    translate: -50% -50%;
+} */
+
+
+::-webkit-scrollbar{
+    display: none;
 }
 .socket {
     width: 100vw;
