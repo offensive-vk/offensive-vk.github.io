@@ -22,14 +22,19 @@ h1{
     -webkit-text-fill-color: transparent;
 }
 h3{
+    transition: all .7s ease-in-out;
     text-align: center;
     font-size: 2.2rem;
     font-family: "Arial Nova Light";
-    background: linear-gradient(130deg, aqua,magenta, orange);
+    background: linear-gradient(210deg, aqua,magenta, orange);
     background-color: #fff; 
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+h3:hover{
+    letter-spacing: -2.5px;
+    
 }
 .main{
     display: inline;
