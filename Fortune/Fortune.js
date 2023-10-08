@@ -135,3 +135,9 @@ window.addEventListener('keydown', (event) => {
     }
 });
 
+window.addEventListener('DOMContentLoaded', () => {
+    const loadingBar = document.getElementById('loading-bar');
+    setTimeout(() => {
+        loadingBar.style.display = 'none';
+    }, 3500);
+});
