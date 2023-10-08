@@ -1,15 +1,19 @@
-.socket {
-    width: 200px;
-    height: 200px;
-    margin-left: -100px;
-    margin-top: -100px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background: none;
+#entry-loader{
+    background-color: rgb(10, 10, 10); 
+    display: grid;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+    place-items: center;
+    color: #fff;
+    z-index: 99999;
 }
-
+.socket {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgb(10, 10, 10); 
+}
 .hex-brick {
     background: #000000;
     width: 30px;

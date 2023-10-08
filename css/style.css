@@ -74,7 +74,7 @@
     --light-green: rgb(95, 255, 180);
     --light-blue-percent: rgb(24, 49, 97);
 
-    --max-width: 1280px;
+    --max-width: 1380px;
     --max-height: 99999px;
 }
 
@@ -112,7 +112,7 @@ h2,h3 {
 
 p {
     font-size: clamp(1rem, 1.35rem, 2rem);
-    margin-left: 14px;
+    /* margin-left: 14px; */
     color: #fff;
 }
 
@@ -176,8 +176,6 @@ hr {
 .first {
     display: flex;
     flex-direction: column;
-    /* margin-top: 30px;
-    margin-bottom: 30px; */
     flex-wrap: wrap;
     margin: 30px;
     max-width: var(--max-width);
@@ -193,7 +191,7 @@ hr {
 
 .first > .widgets > .clock{
     font-family: 'IBM Plex Mono', monospace;
-    font-size: clamp(2rem, 8vw, 10rem);
+    font-size: clamp(2rem, 7vw, 10rem);
     margin: 10px;
     padding: 0rem clamp(1rem, 2vw, 3rem);
     border-radius: clamp(0.4rem, 0.75vw, 1rem);
@@ -254,19 +252,22 @@ hr {
         border-color: #00ff75;
     }
 }
-
+#typewriter-paragraph{
+    padding: 10px;
+    margin: 15px;
+    text-align: justify;
+}
 /* CSS for the word highlight animation */
 .animated-word {
     animation: colorChange 0.5s ease, blink-caret 0.3s linear forwards;
     display: inline-block;
-    margin-right: 7px;
+    margin-right: 5px;
     border-right: 8.2px solid transparent;
     transition: all 0.4s ease-in-out;
 }
 .animated-word:hover{
     color: #00ff75;
-    font-family: monospace;
-    cursor: pointer;
+    cursor: text;
 }
 /* Keyframes for the word color change animation */
 @keyframes colorChange {
