@@ -1,5 +1,5 @@
-/* Properties For index.html */
-/* 
+/* Properties For Home Page */
+/*
 * @description: Root CSS File for Website (https://offensive-vk.github.io/)
 * @dated: September 1, 2023
 * @isRoot?: true.
@@ -139,13 +139,13 @@ header {
     position: sticky;
     z-index: 1;
     top: 2rem;
+    box-shadow: 0rem 0rem 4rem 1rem #000;
 
     max-width: 1350px;
     width: 1280px;
     align-items: center;
     border: 1px solid #000;
-    position: sticky;
-    box-shadow: 0rem 0rem 4rem 1rem #000;
+
     border-radius: 14px;
     background: linear-gradient(45deg, aqua, magenta, orange);
     background-size: 200% 100%;

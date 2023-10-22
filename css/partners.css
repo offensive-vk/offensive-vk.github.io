@@ -38,6 +38,10 @@ h3{
     border-bottom: 1px solid;
 }
 header {
+    position: sticky;
+    z-index: 1;
+    top: 2rem;
+    box-shadow: 0rem 0rem 4rem 1rem #000;
     align-items: center;
     border: 2px solid #000;
     border-radius: 14px;
