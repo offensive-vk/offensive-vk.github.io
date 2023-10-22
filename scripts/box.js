@@ -65,3 +65,26 @@ var Example = new ExampleClass();
 function simpleDecorator(target, key) {
   console.log("Decorator applied to ".concat(key, " of ").concat(target.constructor.name));
 }
+var ExampleClass2 = function () {
+  var _a;
+  var _instanceExtraInitializers = [];
+  var _greet_decorators;
+  return _a = /** @class */ (function () {
+          function ExampleClass2() {
+              __runInitializers(this, _instanceExtraInitializers);
+          }
+          ExampleClass2.prototype.greet = function () {
+              console.log('Hello, world!');
+          };
+          return ExampleClass2;
+      }()),
+      (function () {
+          var _metadata = typeof Symbol === "function" && Symbol.metadata ? Object.create(null) : void 0;
+          _greet_decorators = [simpleDecorator];
+          __esDecorate(_a, null, _greet_decorators, { kind: "method", name: "greet", static: false, private: false, access: { has: function (obj) { return "greet" in obj; }, get: function (obj) { return obj.greet; } }, metadata: _metadata }, null, _instanceExtraInitializers);
+          if (_metadata) Object.defineProperty(_a, Symbol.metadata, { enumerable: true, configurable: true, writable: true, value: _metadata });
+      })(),
+      _a;
+}();
+var exampleInstance = new ExampleClass2();
+exampleInstance.greet();
