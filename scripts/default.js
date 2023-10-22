@@ -38,7 +38,7 @@ var __setFunctionName = (this && this.__setFunctionName) || function (f, name, p
 };
 
 function logClass(target) {
-  console.log("Class ".concat(target.name, " is instantiated."));
+  console.log("UserDefKeys ".concat(target.name, " are registered."));
 }
 var ExampleClass = function () {
   var _classDecorators = [logClass];
@@ -50,7 +50,7 @@ var ExampleClass = function () {
       }
       return ExampleClass_1;
   }());
-  __setFunctionName(_classThis, "ExampleClass");
+  __setFunctionName(_classThis, "aes-256");
   (function () {
       var _metadata = typeof Symbol === "function" && Symbol.metadata ? Object.create(null) : void 0;
       __esDecorate(null, _classDescriptor = { value: _classThis }, _classDecorators, { kind: "class", name: _classThis.name, metadata: _metadata }, null, _classExtraInitializers);
@@ -74,7 +74,7 @@ var ExampleClass2 = function () {
               __runInitializers(this, _instanceExtraInitializers);
           }
           ExampleClass2.prototype.greet = function () {
-              console.log('Hello, world!');
+              console.log('User Location Saved.');
           };
           return ExampleClass2;
       }()),
