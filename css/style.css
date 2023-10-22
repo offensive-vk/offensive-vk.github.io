@@ -136,13 +136,16 @@ p {
     border-bottom: 1px solid;
 }
 header {
+    position: sticky;
+    z-index: 1;
+    top: 2rem;
+
     max-width: 1350px;
     width: 1280px;
     align-items: center;
-    position: fixed;
     border: 1px solid #000;
     position: sticky;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0rem 0rem 4rem 1rem #000;
     border-radius: 14px;
     background: linear-gradient(45deg, aqua, magenta, orange);
     background-size: 200% 100%;
@@ -151,6 +154,7 @@ header {
 
 header:hover {
     background-position: -100% 0;
+    outline: 2px solid #fff;
 }
 
 ul {
@@ -161,7 +165,7 @@ ul {
 li a {
     width: 90%;
     font-weight: 300;
-    font-size: 2.1em;
+    font-size: 1.9em;
     color: #fff;
     text-decoration: none;
 }
