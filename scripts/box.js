@@ -36,15 +36,10 @@ var __setFunctionName = (this && this.__setFunctionName) || function (f, name, p
   if (typeof name === "symbol") name = name.description ? "[".concat(name.description, "]") : "";
   return Object.defineProperty(f, "name", { configurable: true, value: prefix ? "".concat(prefix, " ", name) : name });
 };
-/*
-Decorators are a feature of TypeScript that allow you to modify the behavior of a class, property, method, or parameter. They are a way to add additional functionality to existing code, and they can be used for a wide range of tasks, including logging, performance optimization, and validation.
 
-*/
-// Decorator function
 function logClass(target) {
   console.log("Class ".concat(target.name, " is instantiated."));
 }
-// Applying the decorator to a class
 var ExampleClass = function () {
   var _classDecorators = [logClass];
   var _classDescriptor;
@@ -65,10 +60,8 @@ var ExampleClass = function () {
   })();
   return ExampleClass = _classThis;
 }();
-// Creating an instance of the decorated class
+
 var Example = new ExampleClass();
-// 2. Another example
-// Decorator function
 function simpleDecorator(target, key) {
   console.log("Decorator applied to ".concat(key, " of ").concat(target.constructor.name));
 }
