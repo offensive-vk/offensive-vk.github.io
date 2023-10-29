@@ -295,10 +295,11 @@ hr {
     margin-bottom: 30px;
     max-width: 1280px;
 }
-.second > p{
+.second > p {
     margin: 0 auto;
 }
 .container {
+    gap: 12px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -318,7 +319,7 @@ hr {
     padding: 20px;
     background-color: transparent;
     border-radius: 5px;
-    width: calc(33.33% - 10px);
+    width: calc(33.33% - 1vh);
     height: calc(33.33% - 100px);
     margin-bottom: 20px;
     position: relative;
