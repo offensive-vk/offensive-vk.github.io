@@ -87,13 +87,14 @@ h1{
     text-decoration: none;
 }
 .vedansh{
-
+  margin: 0 auto;
 }
 .curly-start{
-
+  margin-bottom: 10vmin;
+  font-size: 12vmin;
 }
 .curly-end{
-  
+  font-size: 4rem;
 }
 .slogan{
   font-size: 2.2rem;
@@ -156,9 +157,8 @@ h1{
     background: linear-gradient(130deg, aqua,magenta, orange);
   }
   
-  .backSide,
-  .backSide::before {
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  .backSide, .backSide::before {
+    background-image: linear-gradient(160deg, #1d1d1d 0%, #00564c 100%);
   }
   
   .backSide {
@@ -194,16 +194,7 @@ h1{
     }
   }
 
-  /* Logo Styling */
-  .last{
-    display: grid;
-    place-items: center;
-  }
-  .logo{
-    margin: 15vmin;
-  }
-
-  /* Theme Toggle */
+/* Theme Toggle */
 
 .toggle-btn{
   display: grid;
@@ -279,3 +270,5 @@ h1{
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+
+/* The End */
