@@ -446,8 +446,7 @@ a:hover .material-symbols-outlined {
 }
 
 .img:hover {
-    transform: skewX(-20deg);
-    box-shadow: 0 0 2.5rem #d4d4d4;
+    box-shadow: 0 0 4.5rem #737373;
 }
 
 /* Fourth Section */
