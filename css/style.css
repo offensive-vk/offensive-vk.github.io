@@ -283,7 +283,6 @@ hr {
         
         opacity: 0.4;
         font-style: italic;
-        /* transform: translateY(100px); */
         font-family: monospace;
         color: cyan;
     }
@@ -361,22 +360,15 @@ hr {
     padding: 12px;
     margin: 100px;
     background-size: 200% 100%;
-    /* transition: background-position 800ms ease, animation 800ms ease-in-out; */
     transition: all 800ms ease;
-
 }
 
-.box > a:hover {
+.box a:hover {
     background-position: -200% 0;
-    background-position: center center;
     animation: more 800ms ease;
 }
 
 @keyframes more {
-    from {
-        transform: scale(1);
-    }
-
     to {
         background: var(--color);
     }
@@ -395,7 +387,7 @@ a:hover .material-symbols-outlined {
 
 @keyframes rotate-icon {
     0% {
-        transform: translateY(10px), rotate(0deg);
+        transform: translateY(10px) rotate(0deg);
         opacity: 1;
     }
 
