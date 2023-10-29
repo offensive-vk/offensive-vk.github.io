@@ -81,19 +81,24 @@ hr{
     border-radius: 99px;
     background: linear-gradient(130deg, aqua,magenta, orange);
 }
-h1, .vedansh{
+h1{
     color: #000;
-    font-size: 2.8rem; 
-  }
-/* .one{
-    font-size: 3.2em;
-    margin: 20px;
+    font-size: 3rem; 
+    text-decoration: none;
 }
-.two{
-    font-size: 3rem;
-    margin: 20px;
+.vedansh{
+
+}
+.curly-start{
+
+}
+.curly-end{
   
-} */
+}
+.slogan{
+  font-size: 2.2rem;
+  border-bottom: 1px solid;
+}
 .myCard {
     margin-top: 7rem;
     background-color: transparent;
