@@ -58,6 +58,7 @@ header {
 
 header:hover {
     background-position: -100% 0;
+    outline: 2px solid #fff;
 }
 
 ul{
