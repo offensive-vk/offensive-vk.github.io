@@ -1,14 +1,13 @@
 /* Services section */
-html{
+html, body{
     scroll-behavior: smooth;
 }
 body{
     font-size: 1em;
-    margin: 45px;
+    margin: 25px;
     padding: 25px;
     color: #fff;
     background-color: rgb(13, 30, 36);
-    justify-content: space-around;
     resize: both;
 }
 h1{
@@ -34,19 +33,18 @@ h3{
 }
 h3:hover{
     letter-spacing: -2.5px;
-    
 }
 .main{
+    text-align: center;
     height: 100%;
     align-items: center;
     justify-content: center;
-    margin: 20px;
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 62.5rem;
     max-width: 1200px !important;
+
 }
 .main h3{
     max-width: 1000px;
