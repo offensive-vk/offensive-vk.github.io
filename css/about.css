@@ -60,6 +60,7 @@ header {
 }
 
 header:hover {
+    outline: 2px solid #fff;
     background-position: -100% 0;
 }
 
@@ -89,20 +90,24 @@ h1{
 .vedansh {
   margin: 0 auto;
 }
-.curly-start{
+.curly-start, .curly-end{
   font-style: italic;
   color: #f2d4ea;
   margin-bottom: 10vmin;
-  font-size: 6rem;
   overflow: visible;
 }
+.curly-start{
+  font-size: 6rem;
+
+}
 .curly-end{
-  font-style: italic;
   font-size: 4rem;
+
 }
 .slogan{
   font-size: 2.2rem;
-  border-bottom: 1px solid;
+  border-bottom: 1px double;
+
 }
 .myCard {
     margin-top: 7rem;
