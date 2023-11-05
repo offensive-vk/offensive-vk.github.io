@@ -37,7 +37,21 @@ h3:hover{
     
 }
 .main{
-    display: inline;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 62.5rem;
+    max-width: 1200px !important;
+}
+.main h3{
+    max-width: 1000px;
+    margin: 3px;
+    padding: 10px;
 }
 .services{
     border-bottom: 1px solid;
