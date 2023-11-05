@@ -86,6 +86,7 @@ body::selection {
 }
 
 body {
+    overflow-x: hidden;
     user-select: none;
     scroll-behavior: smooth;
     font-size: 1em;
@@ -133,7 +134,8 @@ p {
 }
 
 .home, .top:hover {
-    border-bottom: 1px solid;
+    text-decoration: none;
+    color: #000;
 }
 header {
     position: sticky;

@@ -52,7 +52,8 @@ h3:hover{
     padding: 10px;
 }
 .services{
-    border-bottom: 1px solid;
+    text-decoration: line-through;
+    color: #000;
 }
 header {
     position: sticky;
