@@ -4,7 +4,7 @@ html{
 }
 body{
     font-size: 1em;
-    margin: 45px;
+    margin: 25px;
     padding: 25px;
     color: #fff;
     background-color: rgb(13, 30, 36);
@@ -35,7 +35,8 @@ h3{
     display: inline;
 }
 .partners{
-    border-bottom: 1px solid;
+    text-decoration: line-through;
+    color: #000;
 }
 header {
     position: sticky;
