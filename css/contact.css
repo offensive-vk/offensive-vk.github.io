@@ -38,7 +38,8 @@ p{
     margin-left: 20px;
 }
 .contact{
-    border-bottom: 1px solid;
+    text-decoration: line-through;
+    color: #000;
 }
 .main{
     display: inline-block;
