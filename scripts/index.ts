@@ -1,13 +1,11 @@
-/*
 
-* @author: Vedansh Khandelwal
-* @lang: JavaScript (ES6+), TypeScript
-* @description: Private Development and Testing Website.
-* @root: true.
-* @copyright: Copyright (c) by Respected Authors. All rights reserved.
-* @year: 2023
-
-*/
+/**
+ * @author: Vedansh Khandelwal
+ * @description: Private Development and Testing Website.
+ * @copyright: Copyright (c) by Respected Authors. All rights reserved.
+ * @year 2023
+ * @lang JavaScript (ES6+), TypeScript
+ */
 class Methods {
     constructor() { }
 
