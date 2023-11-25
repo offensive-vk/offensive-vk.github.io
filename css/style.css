@@ -1,11 +1,11 @@
 /* Properties For Home Page */
 /*
-* @description: Root CSS File for Website (https://offensive-vk.github.io/)
+* @description: Root CSS File for Website* (https://offensive-vk.github.io/)
 * @dated: September 1, 2023
 * @isRoot?: true.
-* @Content: Personal Website. 
-* @Lang: CSS (Cascading Style Sheets v3) | Sass .
-* @Copyright (c) by Vedansh <offensive-vk>. All rights reserved.
+* @content: Personal Website. 
+* @lang: CSS (Cascading Style Sheets v3) | Sass .
+* @copyright (c) by Vedansh <offensive-vk>. All rights reserved.
 */
 /* This File Belongs to respected authors and developers.* */
 
@@ -295,7 +295,7 @@ hr {
 .second {
     margin-top: 30px;
     margin-bottom: 30px;
-    max-width: 1280px;
+    max-width: 1200px;
 }
 .second > p {
     margin: 0 auto;
