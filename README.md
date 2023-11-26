@@ -1,16 +1,39 @@
-# Author : @offensive-vk
-## This Repository is Specially Created for My Webpages and Contains Private Projects that should not be copied or pasted at any cost.
+# Welcome to My Web Development Playground 🚀
 
-This is just a preview version for testing.
+## Author : [@offensive-vk](https://github.com/offensive-vk)
 
-## Languages Used : </> 
+🌐 This repository is a curated collection of my web development projects. Please respect the privacy of these projects and refrain from copying or using any content without permission. This is a preview version for testing purposes.
+
+## Technologies Used 💻
 
 <div align="center">
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="200" height="200"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="200" height="200"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="200" height="200"/> </a> 
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" wwidth="200" height="200"/> </a>
-
+    <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/typescript/typescript-original.svg" alt="typescript" width="100" height="100"/>
+    &nbsp;
+    <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/javascript/javascript-original.svg" alt="javascript" width="100" height="100"/>
+    &nbsp;
+    <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/css3/css3-original-wordmark.svg" alt="css3" width="100" height="100"/>
+    &nbsp;
+    <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/html5/html5-original-wordmark.svg" alt="html5" width="100" height="100"/>
 </div>
 
-### Thank you...
+### Project Preview 🖥️
+
+![Project Preview](https://cdn.jsdelivr.net/gh/offensive-vk/offensive-vk.github.io@minor-fixes/img/Preview.png)
+
+### How to Use 🛠️
+
+1. Clone the repository: `git clone https://github.com/offensive-vk/offensive-vk.github.io.git`
+2. Navigate to the project folder: `cd offensive-vk.github.io`
+3. Open the `index.html` file in your browser.
+4. Start developing your own.
+
+### Feedback and Contributions 🙏
+
+This is a work in progress, and your feedback is highly appreciated! If you find any issues or have suggestions for improvement, please [open an issue](https://github.com/offensive-vk/offensive-vk.github.io/issues).
+If you have any suggestions for any component or section, please create an [pull request](https://github.com/offensive-vk/offensive-vk.github.io/pulls) here.
+
+### Get in Touch 📬
+
+Feel free to connect if you have any questions or just want to chat about web development. You can find me on [Twitter](https://twitter.com/offensive-vk) or [LinkedIn](https://www.linkedin.com/in/offensive-vk/).
+
+**Thank you for exploring my web development journey! 🚀**
