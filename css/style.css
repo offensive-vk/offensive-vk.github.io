@@ -475,7 +475,7 @@ a:hover .material-symbols-outlined {
 }
 .js-title {
     text-align: center;
-    background: linear-gradient(255deg, aqua, magenta);
+    background: linear-gradient(aqua, magenta);
     background-color: #fff;
     background-clip: text;
     -webkit-background-clip: text;
@@ -483,6 +483,7 @@ a:hover .material-symbols-outlined {
     letter-spacing: 1px;
     font-family: 'IBM Plex Mono', Arial Nova Light;
     font-size: 3em;
+    font-weight: bold;
     border: none;
     transition: all .3s ease-in-out;
     
