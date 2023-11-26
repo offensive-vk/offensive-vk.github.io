@@ -565,15 +565,15 @@ a:hover .material-symbols-outlined {
 .js .js-content ._sample a:hover{
     background-color: #dfdfd7;
     color: #000;
-    border: 3px solid #000;
     box-shadow:     
     0 0 1.5rem 0 cyan;
 }
 .js .js-content ._sample img{
     border-radius: 15px;
     scale: 0.7;
-    height: 85vh;
-    width: 75vw;
+    /* height: 85vh;
+    width: 75vw; */
+    object-fit: cover;
     align-self: flex-end;
 }
 /* Fourth Section - End */
