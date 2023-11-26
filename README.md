@@ -18,7 +18,7 @@
 
 ### Project Preview 🖥️
 
-![Project Preview](https://cdn.jsdelivr.net/gh/offensive-vk/offensive-vk.github.io@minor-fixes/img/css.png)
+![Project Preview](https://cdn.jsdelivr.net/gh/offensive-vk/offensive-vk.github.io@minor-fixes/img/Preview.png)
 
 ### How to Use 🛠️
 
