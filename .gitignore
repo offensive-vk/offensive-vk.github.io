@@ -6,3 +6,6 @@ shristi
 .vscode
 .json
 settings.json
+node_modules/
+tests/
+test/
