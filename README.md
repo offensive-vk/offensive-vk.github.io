@@ -18,12 +18,18 @@
 
 ### Project Preview 🖥️
 
-![Project Preview](https://cdn.jsdelivr.net/gh/offensive-vk/offensive-vk.github.io@minor-fixes/img/Preview.png)
+![Project Preview](https://cdn.jsdelivr.net/gh/offensive-vk/offensive-vk.github.io@master/img/Preview.png)
 
 ### How to Use 🛠️
 
-1. Clone the repository: `git clone https://github.com/offensive-vk/offensive-vk.github.io.git`
-2. Navigate to the project folder: `cd offensive-vk.github.io`
+1. Clone the repository:
+```bash
+$ git clone https://github.com/offensive-vk/offensive-vk.github.io.git
+```
+2. Navigate to the project folder:
+```bash
+cd offensive-vk.github.io
+```
 3. Open the `index.html` file in your browser.
 4. Start developing your own.
 
