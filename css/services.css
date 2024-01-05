@@ -1,12 +1,12 @@
 /* Services section */
 
-h3{
+h3 {
     transition: all .7s ease-in-out;
 }
-h3:hover{
+.main > h3:hover {
     letter-spacing: -2.5px;
 }
-h1{
+h1 {
     text-align: center;
     font-size: 3.2rem;
     font-family: "Arial Nova Light";
@@ -16,7 +16,7 @@ h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.main{
+.main {
     text-align: center;
     height: 100%;
     align-items: center;

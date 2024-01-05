@@ -3,10 +3,10 @@ Global Styles for Separate Webpages.
 Mixed Styling and Common Styles.
 @author: Vedansh
 */
-html, body{
+html, body {
     scroll-behavior: smooth;
 }
-body{
+body {
     font-size: 1em;
     margin: 25px;
     padding: 25px;
@@ -15,8 +15,11 @@ body{
     justify-content: space-around;
     resize: both;
 }
-
-h3{
+body::selection {
+    background: #000;
+    color: #fff;
+}
+h3 {
     text-align: center;
     font-size: 2.2rem;
     font-family: "Arial Nova Light";
