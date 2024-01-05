@@ -1,14 +1,14 @@
 /* About us section */
-:root{
+:root {
     --color: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
     --color2: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }
-.main{
+.main {
     display: grid;
     align-items: center;
     justify-content: center;
 }
-.about{
+.about {
     text-decoration: line-through;
     color: #000;
 }
@@ -24,17 +24,17 @@ h1 {
 .vedansh {
   margin: 0 auto;
 }
-.curly-start, .curly-end{
+.curly-start, .curly-end {
   font-style: italic;
   color: #f2d4ea;
   margin-bottom: 10vmin;
   overflow: visible;
   animation: curly 5s linear infinite;
 }
-.curly-start{
+.curly-start {
   font-size: 6rem;
 }
-.curly-end{
+.curly-end {
   font-size: 4rem;
 }
 @keyframes curly {
@@ -45,17 +45,17 @@ h1 {
     transform: scale(1);
   }
 }
-.slogan{
+.slogan {
   font-size: 2.2rem;
   border-bottom: 1px double;
   animation: slogan 700ms cubic-bezier(0.215, 0.610, 0.355, 1);
   transform: translateZ(-20px);
 }
 @keyframes slogan {
-  from{
+  from {
     transform: translateY(-200px);
   }
-  to{
+  to {
     transform: translateY(0px);
   }
 }
@@ -70,7 +70,7 @@ h1 {
     will-change: transform;
     transform-style: preserve-3d;
 } 
-@keyframes appear{
+@keyframes appear {
     0% {
       transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -750.01, 0, 1) rotateZ(360deg);
     }
