@@ -7,6 +7,8 @@
  * @lang JavaScript (ES6+), TypeScript
  */
 class Methods {
+    private static PRIVATEKEY: number;
+    protected static PROTECTEDKEY: [number, string];
     constructor() { }
 
     public async getIP(): Promise<string> {
@@ -17,6 +19,9 @@ class Methods {
         } catch (error) {
             return "[ Error fetching IP address ]";
         }
+    }
+    public async showKeys(key: [number, string]): Promise<void> {
+
     }
 }
 
