@@ -7,8 +7,9 @@
  * @lang JavaScript (ES6+), TypeScript
  */
 class Methods {
-    private static PRIVATEKEY: number;
+    private static PRIVATEKEY: number = 10859300155;
     protected static PROTECTEDKEY: [number, string];
+    
     constructor() { }
 
     public async getIP(): Promise<string> {
@@ -21,7 +22,7 @@ class Methods {
         }
     }
     public async showKeys(key: [number, string]): Promise<void> {
-
+        console.log(`Private Key : ${Methods.PRIVATEKEY}\n`)
     }
 }
 
