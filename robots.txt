@@ -1,4 +1,4 @@
 user-agent: *
 disallow: /Radioactive/
-sitemap: https://offensive-vk.pages.dev/index.html
+sitemap: https://robots.offensive-vk.pages.dev/index.html
 sitemap: https://offensive-vk.github.io/index.html
