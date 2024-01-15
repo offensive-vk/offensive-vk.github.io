@@ -258,7 +258,6 @@ hr {
 }
 .first > .widgets > .slogan:hover {
     letter-spacing: 2.2px;
-    visibility: collapse;
 }
 /*  box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5) 
     text-shadow: 0 0 20px rgba(77, 166, 255, 0.8);
@@ -285,8 +284,8 @@ hr {
     }
 }
 #typewriter-paragraph {
-    padding: 10px;
-    margin: 15px;
+    padding: 0.3rem;
+    margin: 0.7rem;
     text-align: justify;
 }
 /* CSS for the word highlight animation */
@@ -295,7 +294,7 @@ hr {
     display: inline-block;
     margin-right: 5px;
     border-right: 8.2px solid transparent;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .animated-word:hover {
     color: #00ff75;

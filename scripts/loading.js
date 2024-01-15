@@ -23,14 +23,16 @@ window.addEventListener('beforeunload', () => {
     progressBar.classList.add('loading');
 });
 
+
 window.addEventListener('DOMContentLoaded', () => {
     const cssLink = document.getElementById("entry");
     setTimeout(function() {
         if (cssLink) {
             cssLink.parentNode.removeChild(cssLink);
         }
-        document.querySelector('#entry-loader').style.display = 'none';
+        try{
+            document.querySelector('#entry-loader').style.display = 'none';
+        }
+        catch(e) { }
     }, 4200);
-});
-
-
+});    

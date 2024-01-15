@@ -8,8 +8,7 @@
  */
 class Methods {
     private static PRIVATEKEY: number = 10859300155;
-    protected static PROTECTEDKEY: [number, string];
-    
+
     constructor() { }
 
     public async getIP(): Promise<string> {
@@ -21,14 +20,14 @@ class Methods {
             return "[ Error fetching IP address ]";
         }
     }
-    public async showKeys(key: [number, string]): Promise<void> {
+    public async showKeys(key?: [number, string]): Promise<void> {
         console.log(`Private Key : ${Methods.PRIVATEKEY}\n`)
     }
 }
 
 async function updateIP() {
     const M = new Methods();
-    const ipElement: HTMLHeadingElement | null = document.getElementById("getIP");
+    const ipElement: HTMLElement | null = document.getElementById("getIP");
 
     if (ipElement) {
         try {
