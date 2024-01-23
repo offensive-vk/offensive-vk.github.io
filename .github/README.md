@@ -5,9 +5,9 @@
 ## 🧭 Quick Links and Navigation:
 For Any Information About Contribution and Documentation of This Repo. <br>
 ### Please Refer to: 
-- [Documentation](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/README.md) <br>
-- [Contribution Guidelines](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/CONTRIBUTING.md) <br>
-- [Security Guidelines](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/SECURITY.md) <br>
+- [Documentation](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/README.md) <br>
+- [Contribution Guidelines](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/CONTRIBUTING.md) <br>
+- [Security Guidelines](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/SECURITY.md) <br>
 - [Author 🧑‍💻](https://github.com/offensive-vk/) <br>
 
 ## Language / Technologies Used 💻
@@ -34,7 +34,7 @@ $ git clone https://github.com/offensive-vk/offensive-vk.github.io.git
 ```
 2. Navigate to the project folder:
 ```bash
-cd offensive-vk.github.io
+$ cd offensive-vk.github.io
 ```
 3. Open the `index.html` file in your browser.
 4. Start developing your own.
