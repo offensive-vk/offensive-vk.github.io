@@ -1,8 +1,8 @@
-new.txt
 shristi/
-.vscode
+.vscode/
 .json
 settings.json
 node_modules/
 tests/
 test/
+dist/
