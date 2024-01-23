@@ -1,13 +1,13 @@
 /* Contact.css for contacts section */
 
-.contact{
+.contact {
     text-decoration: line-through;
     color: #000;
 }
-.main{
+.main {
     display: inline-block;
 }
-h1{
+h1 {
     font-size: 4rem;
     font-family: "Arial Nova Light";
     background: linear-gradient(130deg, aqua,magenta, orange);
@@ -16,7 +16,7 @@ h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-h3{
+h3 {
     text-align: left;
 }
 /* The End */

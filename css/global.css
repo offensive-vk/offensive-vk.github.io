@@ -1,11 +1,13 @@
 /*
 Global Styles for Separate Webpages.
 Mixed Styling and Common Styles.
-@author: Vedansh
+Author: Vedansh
 */
-html, body {
+html,
+body {
     scroll-behavior: smooth;
 }
+
 body {
     font-size: 1em;
     margin: 25px;
@@ -15,15 +17,17 @@ body {
     justify-content: space-around;
     resize: both;
 }
+
 body::selection {
     background: #000;
     color: #fff;
 }
+
 h3 {
     text-align: center;
     font-size: 2.2rem;
     font-family: "Arial Nova Light";
-    background: linear-gradient(130deg, aqua,magenta, orange);
+    background: linear-gradient(130deg, aqua, magenta, orange);
     background-color: #fff;
     background-clip: text;
     -webkit-background-clip: text;
@@ -42,15 +46,18 @@ header {
     background-size: 200% 100%;
     transition: background-position 0.5s ease-in-out;
 }
+
 header:hover {
     outline: 2px solid #fff;
     background-position: -100% 0;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: space-around;
 }
-li a{
+
+li a {
     width: 90%;
     font-weight: 300;
     font-size: 2.1em;
@@ -58,14 +65,15 @@ li a{
     color: #fff;
     text-decoration: none;
 }
-hr{
+
+hr {
     border: none;
     border-radius: 99px;
-    background: linear-gradient(130deg, aqua,magenta, orange);
+    background: linear-gradient(130deg, aqua, magenta, orange);
 }
 
 /* Theme Toggle */
-.toggle-btn{
+.toggle-btn {
     display: grid;
     place-items: center;
 }
