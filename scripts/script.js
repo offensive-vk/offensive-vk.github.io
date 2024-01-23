@@ -1,12 +1,11 @@
-/*
-
+/**
 * @author: Vedansh Khandelwal
 * @lang: JavaScript (ES6+), TypeScript
 * @description: Private Development and Testing Website.
 * @root: true.
 * @type: Website | Portfolio <Soon>.
 * @copyright: Copyright (c) by Respected Authors. All rights reserved.
-* @year: 2023
+* @year: 2022-24
 * @returns: Pure JavaScript Output.
 */
 
@@ -88,7 +87,7 @@ const start = () => {
 }
 document.addEventListener("DOMContentLoaded", start);
 
-// Navbar- Links
+// Navbar-Links
 for (const eachLink of document.getElementsByClassName("link")) {
     eachLink.onmousemove = (e) => {
         const decimal = e.clientX / eachLink.offsetWidth;

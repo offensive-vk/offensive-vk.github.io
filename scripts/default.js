@@ -74,7 +74,7 @@ var ExampleClass2 = function () {
               __runInitializers(this, _instanceExtraInitializers);
           }
           ExampleClass2.prototype.greet = function () {
-              console.log('User Location Saved.');
+              console.log('User Choice Configured.');
           };
           return ExampleClass2;
       }()),
