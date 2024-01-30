@@ -1,13 +1,13 @@
 # Please Follow Contribution Guidelines Below.
 Every contribution is honoured and counted towards open source.
-When contributing to this repository, please first create an issue for the change you wish to make via [GitHub](https://github.com/offensive-vk/offensive-vk.github.io/issue) with the owners of this repository before submitting a [Pull Request](https://github.com/offensive-vk/offensive-vk.github.io/pr)
+When contributing to this repository, please first create an issue for the change you wish to make via [GitHub](https://github.com/offensive-vk/offensive-vk.github.io/issue) with the owners of this repository before submitting a [Pull Request](https://github.com/offensive-vk/offensive-vk.github.io/pr).
 
 ## Pre-requisties before contributing to this repo: (For new or first time contributors)
 - A Github Account 
 - Any Code Editor Like [VS Code](https://code.visualstudio.com/download)
 - Fork this repo and starting developing or improve this repo with changes of your own.
 - Create PR [here](https://github.com/offensive-vk.github.io/pr) and Issue [here](https://github.com/offensive-vk/offensive-vk.github.io/issue) for creating an issue.
-- Your Pull Request will be reviewed accordingly and will merge.
+- Your Pull Request will be reviewed accordingly and will merge accordingly.
 - Author : [offensive-vk](https://github.com/offensive-vk/)
 - Thank you.
 
