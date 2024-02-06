@@ -46,6 +46,6 @@ If you have any suggestions for any component or section, please create an [pull
 
 ### Get in Touch 📬
 
-Feel free to connect if you have any questions or just want to chat about web development. You can find me on [Twitter](https://twitter.com/offensive-vk) or [LinkedIn](https://www.linkedin.com/in/offensive-vk/).
+Feel free to connect if you have any questions or just want to chat about web development. You can find me on [Twitter](https://twitter.com/offensive-vk) or my email at profile.
 
 **Thank you for exploring my web development journey! 🚀**
