@@ -5,5 +5,5 @@ We will investigate all legitimate reports and do our best to quickly fix the pr
 
 - Author : [@offensive-vk](https://github.com/offensive-vk/)
 - Maintain The Security and Privacy Of The Project.
-- Create PR [here](https://github.com/offensive-vk/offensive-vk.github.io/pr) and Issue [here](https://github.com/offensive-vk/offensive-vk.github.io/issue) for any security issue.
+- Create PR [here](https://github.com/offensive-vk/offensive-vk.github.io/pulls) and Issue [here](https://github.com/offensive-vk/offensive-vk.github.io/issue) for any security issue.
 - Thank you.
