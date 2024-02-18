@@ -1,10 +1,10 @@
-/* Properties For Home Page */
+/* Properties / Styles For Home Page <index.html> */ 
 /**
 * @description: Root CSS File for Websites* (https://offensive-vk.github.io/) (https:://offensive-vk.pages.dev/)
 * @dated: September 1, 2023
-* @isRoot?: true.
+* @isRoot: true.
 * @content: Personal Website. 
-* @lang: CSS (Cascading Style Sheets v3) | Sass .
+* @lang: CSS (Cascading Style Sheets v3).
 * @copyright (c) by Vedansh @ <offensive-vk>. All rights reserved.
 */
 /* This File Belongs to respected authors and developers.* */
@@ -471,7 +471,6 @@ a:hover .material-symbols-outlined {
 }
 
 /* Fourth Section */
-/* Change it to flex */
 .fourth {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -500,7 +499,7 @@ a:hover .material-symbols-outlined {
 }
 .js-title {
     text-align: center;
-    background: linear-gradient(aqua, magenta);
+    background: linear-gradient(-1deg, aqua, magenta, orange);
     background-color: #fff;
     background-clip: text;
     -webkit-background-clip: text;
