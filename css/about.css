@@ -1,155 +1,185 @@
 /* About us section */
 :root {
-    --color: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
-    --color2: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  --color: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
+  --color2: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }
+
 .main {
-    display: grid;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .about {
-    text-decoration: line-through;
-    color: #000;
+  text-decoration: line-through;
+  color: #000;
 }
+
+p {
+  color: #000;
+  border: 1px solid #000;
+  padding: 1rem;
+  border-radius: 14px;
+}
+em {
+  text-decoration: underline;
+}
+
 hr {
-    margin-top: 20px;
+  margin-top: 20px;
 }
-h1 { 
+
+h1 {
   color: #000 !important;
-  font-size: 3 !important; 
+  font-size: 2rem !important;
   text-decoration: none !important;
 }
+
 /* Personal Fav. */
 .vedansh {
   margin: 0 auto;
 }
-.curly-start, .curly-end {
+
+.curly-start,
+.curly-end {
   font-style: italic;
   color: #f2d4ea;
   margin-bottom: 10vmin;
   overflow: visible;
   animation: curly 5s linear infinite;
 }
+
 .curly-start {
   font-size: 6rem;
 }
+
 .curly-end {
   font-size: 4rem;
 }
+
 @keyframes curly {
-  from{
+  from {
     transform: scale(0.5);
   }
-  to{
+
+  to {
     transform: scale(1);
   }
 }
+
 .slogan {
   font-size: 2.2rem;
   border-bottom: 1px double;
   animation: slogan 700ms cubic-bezier(0.215, 0.610, 0.355, 1);
   transform: translateZ(-20px);
 }
+
 @keyframes slogan {
   from {
     transform: translateY(-200px);
   }
+
   to {
     transform: translateY(0px);
   }
 }
+
 .myCard {
-    margin-top: 7rem;
-    background-color: transparent;
-    width: 600px;
-    height: 700px;
-    /* transform: translateX(50%); */
-    perspective: 1000px;
-    animation: appear 700ms cubic-bezier(0.215, 0.610, 0.355, 1);
-    will-change: transform;
-    transform-style: preserve-3d;
-} 
-@keyframes appear {
-    0% {
-      transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -750.01, 0, 1) rotateZ(360deg);
-    }
-    100% {
-      transform: none;
-    }
+  margin-top: 7rem;
+  background-color: transparent;
+  width: 600px;
+  height: 700px;
+  /* transform: translateX(50%); */
+  perspective: 1000px;
+  animation: appear 700ms cubic-bezier(0.215, 0.610, 0.355, 1);
+  will-change: transform;
+  transform-style: preserve-3d;
 }
-  .innerCard {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    cursor: pointer;
+
+@keyframes appear {
+  0% {
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -750.01, 0, 1) rotateZ(360deg);
   }
-  
-  .myCard:hover .innerCard {
-    transform: rotateY(180deg);
+
+  100% {
+    transform: none;
   }
-  
-  .frontSide,
-  .backSide {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    border-radius: 1rem;
-    color: white;
-    box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
-    font-weight: 700;
+}
+
+.innerCard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.myCard:hover .innerCard {
+  transform: rotateY(180deg);
+}
+
+.frontSide,
+.backSide {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  color: white;
+  box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+}
+
+.frontSide,
+.frontSide::before {
+  background: linear-gradient(-145deg, aqua, magenta, orange);
+  /* background: var(--color); */
+}
+
+.backSide,
+.backSide::before {
+  background-image: linear-gradient(160deg, #1d1d1d 0%, #00564c 100%);
+}
+
+.backSide {
+  transform: rotateY(180deg);
+}
+
+.frontSide::before,
+.backSide::before {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: '';
+  width: 110%;
+  height: 110%;
+  position: absolute;
+  z-index: -1;
+  border-radius: 1em;
+  filter: blur(15px);
+  animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0.2;
   }
-  
-  .frontSide,
-  .frontSide::before {
-    background: linear-gradient(130deg, aqua,magenta, orange);
+
+  80% {
+    opacity: 1;
   }
-  
-  .backSide, .backSide::before {
-    background-image: linear-gradient(160deg, #1d1d1d 0%, #00564c 100%);
+
+  100% {
+    opacity: 0.2;
   }
-  
-  .backSide {
-    transform: rotateY(180deg);
-  }
-  
-  .frontSide::before,
-  .backSide::before {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    content: '';
-    width: 110%;
-    height: 110%;
-    position: absolute;
-    z-index: -1;
-    border-radius: 1em;
-    filter: blur(20px);
-    animation: animate 5s linear infinite;
-  }
-  
-  @keyframes animate {
-    0% {
-      opacity: 0.3;
-    }
-  
-    80% {
-      opacity: 1;
-    }
-  
-    100% {
-      opacity: 0.3;
-    }
-  }
+}
 
 /* The End */
