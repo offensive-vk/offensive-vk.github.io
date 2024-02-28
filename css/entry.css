@@ -23,21 +23,7 @@
     top: 50%;
     bottom: 50%;
     translate: -50% -50%;
-} 
-
-#entry-loader::before,
-#entry-loader::after {
-    content: "Hello Bro ";
-    color: cyan;
-    font-size: 4.4rem;
-    background-color: rgb(10, 10, 10); 
-    position: absolute;
-    margin: 0px;
-    top: 50%;
-    bottom: 50%;
-    translate: -50% -50%;
 } */
-
 
 ::-webkit-scrollbar{
     display: none;
@@ -373,8 +359,8 @@
         background: orange;
     }
 }
-/*
-@keyframes fade00 {
+
+@keyframes fade22 {
     0% {
         background: #252525;
     }
@@ -386,9 +372,8 @@
     100% {
         background: #353535;
     }
-} */
+} 
 
-/*
 @keyframes fade11 {
     0% {
         background: #262626;
@@ -401,4 +386,5 @@
     100% {
         background: #717171;
     }
-} */
+}
+/*@end */
