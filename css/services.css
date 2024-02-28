@@ -4,15 +4,16 @@ h3 {
     transition: all .7s ease-in-out;
 }
 
-.main>h3:hover {
-    letter-spacing: -2.5px;
+.main > h3:hover {
+    opacity: 0.5;
+    letter-spacing: -1.5px;
 }
 
 h1 {
     text-align: center;
     font-size: 3.2rem;
     font-family: "Arial Nova Light";
-    background: linear-gradient(130deg, aqua, magenta, orange);
+    background: linear-gradient(112deg, aqua, magenta);
     background-color: #fff;
     background-clip: text;
     -webkit-background-clip: text;

@@ -18,7 +18,7 @@ body {
     resize: both;
 }
 
-body::selection {
+*::selection {
     background: #000;
     color: #fff;
 }
@@ -27,7 +27,7 @@ h3 {
     text-align: center;
     font-size: 2.2rem;
     font-family: "Arial Nova Light";
-    background: linear-gradient(130deg, aqua, magenta, orange);
+    background: linear-gradient(-130deg, aqua, magenta, orange);
     background-color: #fff;
     background-clip: text;
     -webkit-background-clip: text;
