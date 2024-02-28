@@ -13,19 +13,19 @@
     body {
         overflow: hidden;
     }
-    header{
+    header {
         display: none;
     }
-    .first{
+    .first {
         display: none;
     }
-    .second{
+    .second {
         display: none;
     }
-    .third{
+    .third {
         display: none;
     }
-    footer{
+    footer {
         display: none;
     }
     
