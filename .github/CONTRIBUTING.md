@@ -3,7 +3,7 @@
 Every contribution is honoured and counted towards open source.
 When contributing to this repository, please first create an issue for the change you wish to make via [GitHub](https://github.com/offensive-vk/offensive-vk.github.io/issues) with the owners of this repository before submitting a [Pull Request](https://github.com/offensive-vk/offensive-vk.github.io/pulls).
 
-### Pre-requisties before contributing to this repo: (For new or first time contributors)
+### Pre-requisites before contributing to this repository: (For new or first time contributors)
 
 - A Github Account
 - Any Code Editor Like [Visual Studio Code](https://code.visualstudio.com/download)
@@ -17,4 +17,4 @@ When contributing to this repository, please first create an issue for the chang
 
 - First of all create an issue for the change you wish to make via [GitHub](https://github.com/offensive-vk/offensive-vk.github.io/issues)
 - If you want to contribute to this repository please consider submitting a [PR](https://github.com/offensive-vk/offensive-vk.github.io/pulls) first.
-- Code review is required on every push / pr, minimum 1 or more reviewers should be assigned.
+- Code review is required from code owners on every push / pr, minimum 1 or more reviewers should be assigned.

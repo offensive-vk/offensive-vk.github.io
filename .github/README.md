@@ -1,14 +1,18 @@
 ## Welcome to My Web Development Playground 🚀
 
-🌐 This repository is a curated collection of my web development projects. Please respect the privacy of these projects and refrain from copying or using any content without permission. This is a preview version for testing purposes.
+🌐 This repository is a collection of my web development projects. Please respect the privacy of these projects and refrain from copying or using any content without permission. This is a preview version for testing purposes.
 
-## 🧭 Quick Links and Navigation:
-For Any Information About Contribution and Documentation of This Repo. <br>
-### Please Refer to: 
-- [Documentation](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/README.md) <br>
-- [Contribution Guidelines](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/CONTRIBUTING.md) <br>
-- [Security Guidelines](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/SECURITY.md) <br>
-- [Author 🧑‍💻](https://github.com/offensive-vk/) <br>
+## 🧭 Quick Links and Navigation
+
+For Any Information About Contribution and Documentation of This Repo.
+
+### Please Refer to
+
+- [Code of Conduct](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/CODE_OF_CONDUCT.md)
+- [Documentation](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/README.md)
+- [Contribution Guidelines](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/CONTRIBUTING.md)
+- [Security Guidelines](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/SECURITY.md)
+- [Author 🧑‍💻](https://github.com/offensive-vk/)
 
 ## Language / Technologies Used 💻
 
@@ -29,14 +33,19 @@ For Any Information About Contribution and Documentation of This Repo. <br>
 ### How to Use 🛠️
 
 1. Clone the repository:
+
 ```bash
 $ git clone https://github.com/offensive-vk/offensive-vk.github.io.git
 ```
+
 2. Navigate to the project folder:
+
 ```bash
 $ cd offensive-vk.github.io
 ```
+
 3. Open the `index.html` file in your browser.
+
 4. Start developing your own.
 
 ### Feedback and Contributions 🙏
