@@ -1,0 +1,525 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="../css/style.css">
+	<style>
+		input[type='checkbox'] {
+			display: none;
+		}
+
+		label:before {
+			background: rgb(30, 150, 235);
+			border-radius: 3px;
+			height: 16px;
+			width: 16px;
+			display: inline-block;
+			cursor: pointer;
+		}
+
+		input[type='checkbox']+label:before {
+			content: '';
+			background: rgb(30, 150, 235);
+			color: #fff;
+			font-size: 16px;
+			line-height: 16px;
+			text-align: center;
+		}
+
+		input[type='checkbox']:checked+label:before {
+			content: '✓';
+		}
+	</style>
+</head>
+
+<body>
+	<div style="width: 70vw; margin: 60px auto;">
+		<h1>Express & API - Backend</h1>
+		<div class="affine-paragraph-block-container">
+			<h1>Quick Summary of Entire Syllabus ✨.</h1>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<hr>
+		<div class="affine-paragraph-block-container">
+			<h3>Introduction to React</h3>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p>
+				React is an open-source JavaScript library for building user interfaces (UIs) developed by Facebook.
+				It's widely used for building modern single-page applications (SPAs) and is known for its simplicity,
+				flexibility, and performance.</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p>Here's a brief introduction to React:</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Declarative and Component-Based:</strong>React allows you to build UIs using a declarative
+					and component-based approach. Components are the building blocks of React applications, and they
+					encapsulate the UI logic and markup into reusable, independent units.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Virtual DOM:</strong>React uses a virtual DOM (Document Object Model) to efficiently update
+					the UI. Instead of directly manipulating the browser's DOM, React creates a virtual representation
+					of the DOM in memory and updates it when data changes. This approach minimizes DOM manipulation and
+					improves performance.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>JSX (JavaScript XML):</strong>React introduces JSX, a syntax extension that allows you to
+					write HTML-like code within JavaScript. JSX makes it easier to write and reason about UI components
+					by combining HTML markup with JavaScript logic.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Unidirectional Data Flow:</strong>React follows a unidirectional data flow, where data flows
+					downward from parent to child components. This makes it easier to manage the state of the
+					application and ensures that changes to the state propagate through the component tree in a
+					predictable manner.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Component Lifecycle:</strong>React components have a lifecycle consisting of various methods
+					that are invoked at different stages of a component's existence, such as when it is mounted,
+					updated, or unmounted. These lifecycle methods allow you to perform actions like fetching data,
+					updating the UI, or cleaning up resources.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>React Hooks:</strong>React introduced Hooks in version 16.8, which are functions that allow
+					you to use state and other React features in functional components. Hooks provide a more flexible
+					and concise way to manage state and side effects in functional components, making them easier to
+					understand and maintain.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<h3>History of Frontend Libraries</h3>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p>
+				Frontend libraries have evolved significantly over the years, shaping the landscape of web development.
+				Here's a brief overview of the history of frontend libraries:</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>jQuery (2006):</strong>jQuery revolutionized frontend development by simplifying DOM
+					manipulation and providing a concise syntax for handling events, animations, and AJAX requests. It
+					quickly became the de facto library for building interactive web applications due to its ease of use
+					and broad browser compatibility.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Backbone.js (2010):</strong>Backbone.js introduced the concept of MVC
+					(Model-View-Controller) architecture to frontend development. It provided a lightweight framework
+					for organizing code into models, views, and collections, making it easier to manage complex
+					client-side applications.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>AngularJS (2010):</strong>AngularJS, developed by Google, introduced a powerful frontend
+					framework based on the MVVM (Model-View-ViewModel) architecture. It offered two-way data binding,
+					dependency injection, and a rich set of built-in directives for building dynamic web applications.
+				</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>React (2013):</strong>React, developed by Facebook, introduced a new paradigm for building
+					user interfaces using a component-based architecture. It emphasized a declarative approach to
+					building UIs and introduced the concept of a virtual DOM for efficient rendering and performance
+					optimization.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Vue.js (2014):</strong>Vue.js emerged as a lightweight and flexible frontend framework,
+					offering features similar to Angular and React but with a simpler API and a gentler learning curve.
+					It gained popularity for its ease of integration into existing projects and its progressive adoption
+					model.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<h3>Virtual DOM and One Way Binding</h3>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p><strong>Virtual DOM: </strong>The Virtual DOM is a concept used in libraries like React to improve the
+				performance of updating the actual DOM. Instead of directly manipulating the browser's DOM tree every
+				time there's a change in the application state, React creates a lightweight, virtual representation of
+				the DOM in memory. When changes occur, React first updates this virtual DOM. Then, it compares the
+				updated virtual DOM with the previous one to determine the minimal set of changes needed to be applied
+				to the actual DOM. Finally, it updates the real DOM with these minimal changes, reducing the number of
+				manipulations and resulting in faster rendering. This approach improves performance by minimizing DOM
+				manipulations and reflows, leading to a smoother user experience, especially in complex and dynamic
+				applications.</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p><strong>One-way Binding: </strong>One-way binding is a data flow pattern commonly used in frameworks like
+				AngularJS. In one-way binding, data flows in a single direction, from the model (data source) to the
+				view (UI). Changes to the model automatically reflect in the view, but changes in the view do not affect
+				the model unless explicitly handled. This approach helps maintain a clear and predictable data flow,
+				making it easier to reason about the application's state and behavior. However, it may require
+				additional code to handle user interactions or dynamic updates to the UI. Despite this, one-way binding
+				simplifies data management and reduces the risk of unintended side effects, improving code
+				maintainability and scalability in large applications.</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<h3>What is a React Component ?</h3>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p>A React component is a JavaScript function or class that defines a reusable piece of UI. Components in
+				React can be functional components or class components. Here's a simple example of a functional
+				component in React:</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<pre><code class="code-jsx"><span style="word-wrap: break-word; color: #C586C0;">import</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #9CDCFE;">React</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #C586C0;">from</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #CE9178;">'react'</span><span style="word-wrap: break-word; color: #D4D4D4;">;</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #6A9955;">// Functional component</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #569CD6;">function</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #DCDCAA;">Greeting</span><span style="word-wrap: break-word; color: #D4D4D4;">(</span><span style="word-wrap: break-word; color: #9CDCFE;">props</span><span style="word-wrap: break-word; color: #D4D4D4;">) {</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">  </span><span style="word-wrap: break-word; color: #C586C0;">return</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #569CD6;">h1</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: #D4D4D4;">Hello, </span><span style="word-wrap: break-word; color: #569CD6;">{</span><span style="word-wrap: break-word; color: #9CDCFE;">props</span><span style="word-wrap: break-word; color: #D4D4D4;">.</span><span style="word-wrap: break-word; color: #9CDCFE;">name</span><span style="word-wrap: break-word; color: #569CD6;">}</span><span style="word-wrap: break-word; color: #D4D4D4;">!</span><span style="word-wrap: break-word; color: #808080;">&#x3C;/</span><span style="word-wrap: break-word; color: #569CD6;">h1</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: #D4D4D4;">;</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">}</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #6A9955;">// Usage of the component</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #569CD6;">function</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #DCDCAA;">App</span><span style="word-wrap: break-word; color: #D4D4D4;">() {</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">  </span><span style="word-wrap: break-word; color: #C586C0;">return</span><span style="word-wrap: break-word; color: #D4D4D4;"> (</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">    </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #569CD6;">div</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">      </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #4EC9B0;">Greeting</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #9CDCFE;">name</span><span style="word-wrap: break-word; color: #D4D4D4;">=</span><span style="word-wrap: break-word; color: #CE9178;">"Vedansh"</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #808080;">/></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">      </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #4EC9B0;">Greeting</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #9CDCFE;">name</span><span style="word-wrap: break-word; color: #D4D4D4;">=</span><span style="word-wrap: break-word; color: #CE9178;">"Mahak"</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #808080;">/></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">    </span><span style="word-wrap: break-word; color: #808080;">&#x3C;/</span><span style="word-wrap: break-word; color: #569CD6;">div</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">  );</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">}</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #C586C0;">export</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #C586C0;">default</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #9CDCFE;">App</span><span style="word-wrap: break-word; color: #D4D4D4;">;</span></code></pre>
+		<div class="affine-paragraph-block-container">
+			<p>Functional components are simple and lightweight, and they are commonly used in React applications,
+				especially for presentational components that only render UI based on props.</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<h3>Render Functions . (Class Based Components)</h3>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p>
+				In React, the<code>render()</code>function is a method defined within a class component that is
+				responsible for returning the React element (or tree of React elements) representing the component's UI.
+			</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p>Here's a brief explanation of the<code>render()</code>function:</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Class Components:</strong>In React, components can be defined using ES6 classes. Class
+					components are JavaScript classes that extend
+					from<code>React.Component</code>or<code>React.PureComponent</code>.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>The </strong><code><strong>render()</strong></code><strong> Method:</strong>Within a class
+					component, the<code>render()</code>method is a mandatory method that must be implemented. It is
+					responsible for returning the JSX (JavaScript XML) representation of the component's UI.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Returning JSX:</strong>Inside the<code>render()</code>method, you define the structure and
+					content of the component's UI using JSX syntax. JSX is a syntax extension for JavaScript that allows
+					you to write HTML-like code within JavaScript.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Virtual DOM:</strong>When a component is rendered, React creates a virtual representation of
+					the DOM called the Virtual DOM. The<code>render()</code>method generates a description of the UI in
+					the form of a virtual DOM tree, which React then compares with the previous virtual DOM state to
+					determine the minimal set of changes needed to update the actual DOM.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Pure Functions:</strong>The<code>render()</code>method should be a pure function, meaning it
+					should not have any side effects or modify component state. It should only depend on the component's
+					props and state to generate the UI representation.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<pre><code class="code-jsx"><span style="word-wrap: break-word; color: #C586C0;">import</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #9CDCFE;">React</span><span style="word-wrap: break-word; color: #D4D4D4;">, { </span><span style="word-wrap: break-word; color: #9CDCFE;">Component</span><span style="word-wrap: break-word; color: #D4D4D4;"> } </span><span style="word-wrap: break-word; color: #C586C0;">from</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #CE9178;">'react'</span><span style="word-wrap: break-word; color: #D4D4D4;">;</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #569CD6;">class</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #4EC9B0;">MyComponent</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #569CD6;">extends</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #4EC9B0;">Component</span><span style="word-wrap: break-word; color: #D4D4D4;"> {</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">  </span><span style="word-wrap: break-word; color: #DCDCAA;">render</span><span style="word-wrap: break-word; color: #D4D4D4;">() {</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">    </span><span style="word-wrap: break-word; color: #C586C0;">return</span><span style="word-wrap: break-word; color: #D4D4D4;"> (</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">      </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #569CD6;">div</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">        </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #569CD6;">h1</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: #D4D4D4;">Hello, Everyone !</span><span style="word-wrap: break-word; color: #808080;">&#x3C;/</span><span style="word-wrap: break-word; color: #569CD6;">h1</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">        </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #569CD6;">p</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: #D4D4D4;">This is a simple React component.</span><span style="word-wrap: break-word; color: #808080;">&#x3C;/</span><span style="word-wrap: break-word; color: #569CD6;">p</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">      </span><span style="word-wrap: break-word; color: #808080;">&#x3C;/</span><span style="word-wrap: break-word; color: #569CD6;">div</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">    );</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">  }</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">}</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #C586C0;">export</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #C586C0;">default</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #9CDCFE;">MyComponent</span><span style="word-wrap: break-word; color: #D4D4D4;">;</span></code></pre>
+		<div class="affine-paragraph-block-container">
+			<h3>Component API (Application Programming Interface)</h3>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p>In React, the term "Component API" refers to the set of properties, methods, and lifecycle hooks provided
+				by a React component. These elements collectively define how the component interacts with its
+				surroundings, manages its internal state, and responds to changes during its lifecycle.</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p>Here's a breakdown of the key aspects of a React component API:</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Props (Properties):</strong>Props are the inputs to a React component, passed from its
+					parent component. They are immutable and provide a way to customize the behavior and appearance of a
+					component. Props are accessed using<code>this.props</code>in class components or as arguments in
+					functional components.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>State:</strong>State represents the internal data of a component that can change over time.
+					State is mutable and managed internally by the component itself. Class components
+					use<code>this.state</code>to access and update state, while functional components can use
+					the<code>useState</code>hook to manage state.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Lifecycle Hooks:</strong>Lifecycle hooks are special methods provided by React that allow
+					components to execute code at specific points during their lifecycle. Common lifecycle hooks
+					include<code>componentDidMount</code>,<code>componentDidUpdate</code>,
+					and<code>componentWillUnmount</code>in class components, and<code>useEffect</code>in functional
+					components.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Methods:</strong>Class components can define custom methods to encapsulate logic and
+					functionality within the component. These methods can be invoked from within the component to
+					perform specific tasks, such as handling events, fetching data, or updating state.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Event Handling:</strong>React components can respond to user interactions by defining event
+					handlers for DOM events, such as<code>onClick</code>,<code>onChange</code>,<code>onSubmit</code>,
+					etc. Event handlers are functions that are invoked when the corresponding event occurs, allowing
+					components to update state or trigger other actions.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<h3>Key Points about Component and React Usage:</h3>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p><strong>Component Lifecycle: </strong>In React, components go through a lifecycle that consists of
+				various stages, from initialization to destruction. Understanding the component lifecycle is crucial for
+				managing side effects, fetching data, and optimizing performance. The key lifecycle methods in class
+				components include:</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;">
+				<div class="affine-list-block-container">
+					<ul style="">
+						<li><code>constructor()</code>: This method is called when the component is initialized. It's
+							typically used for initializing state and binding event handlers.</li>
+					</ul>
+					<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+				</div>
+				<div class="affine-list-block-container">
+					<ul style="">
+						<li><code>componentDidMount()</code>: This method is invoked after the component has been
+							mounted (i.e., inserted into the DOM). It's commonly used for fetching data from APIs or
+							performing other side effects.</li>
+					</ul>
+					<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+				</div>
+				<div class="affine-list-block-container">
+					<ul style="">
+						<li><code>componentDidUpdate()</code>: This method is called whenever the component's props or
+							state change. It's useful for responding to changes and updating the component's UI or
+							triggering side effects.</li>
+					</ul>
+					<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+				</div>
+				<div class="affine-list-block-container">
+					<ul style="">
+						<li><code>componentWillUnmount()</code>: This method is invoked just before the component is
+							unmounted and destroyed. It's used for cleanup tasks such as removing event listeners or
+							canceling subscriptions.</li>
+					</ul>
+					<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+				</div>
+			</div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p><strong>State: </strong>State represents the internal data of a component that can change over time. It's
+				managed internally by the component itself and can be updated using the <code>setState()</code> method.
+				State is typically used to store dynamic data that affects the component's behavior or appearance.
+				Here's a basic example of using state in a class component:</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<pre><code class="code-jsx"><span style="word-wrap: break-word; color: #C586C0;">import</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #9CDCFE;">React</span><span style="word-wrap: break-word; color: #D4D4D4;">, { </span><span style="word-wrap: break-word; color: #9CDCFE;">Component</span><span style="word-wrap: break-word; color: #D4D4D4;"> } </span><span style="word-wrap: break-word; color: #C586C0;">from</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #CE9178;">'react'</span><span style="word-wrap: break-word; color: #D4D4D4;">;</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #569CD6;">class</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #4EC9B0;">Counter</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #569CD6;">extends</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #4EC9B0;">Component</span><span style="word-wrap: break-word; color: #D4D4D4;"> {</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">  </span><span style="word-wrap: break-word; color: #569CD6;">constructor</span><span style="word-wrap: break-word; color: #D4D4D4;">(</span><span style="word-wrap: break-word; color: #9CDCFE;">props</span><span style="word-wrap: break-word; color: #D4D4D4;">) {</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">    </span><span style="word-wrap: break-word; color: #569CD6;">super</span><span style="word-wrap: break-word; color: #D4D4D4;">(</span><span style="word-wrap: break-word; color: #9CDCFE;">props</span><span style="word-wrap: break-word; color: #D4D4D4;">);</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">    </span><span style="word-wrap: break-word; color: #569CD6;">this</span><span style="word-wrap: break-word; color: #D4D4D4;">.</span><span style="word-wrap: break-word; color: #9CDCFE;">state</span><span style="word-wrap: break-word; color: #D4D4D4;"> = { </span><span style="word-wrap: break-word; color: #9CDCFE;">count:</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #B5CEA8;">0</span><span style="word-wrap: break-word; color: #D4D4D4;"> };</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">  }</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">  </span><span style="word-wrap: break-word; color: #DCDCAA;">render</span><span style="word-wrap: break-word; color: #D4D4D4;">() {</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">    </span><span style="word-wrap: break-word; color: #C586C0;">return</span><span style="word-wrap: break-word; color: #D4D4D4;"> (</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">      </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #569CD6;">div</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">        </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #569CD6;">p</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: #D4D4D4;">Count: </span><span style="word-wrap: break-word; color: #569CD6;">{this</span><span style="word-wrap: break-word; color: #D4D4D4;">.</span><span style="word-wrap: break-word; color: #9CDCFE;">state</span><span style="word-wrap: break-word; color: #D4D4D4;">.</span><span style="word-wrap: break-word; color: #9CDCFE;">count</span><span style="word-wrap: break-word; color: #569CD6;">}</span><span style="word-wrap: break-word; color: #808080;">&#x3C;/</span><span style="word-wrap: break-word; color: #569CD6;">p</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">        </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #569CD6;">button</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #9CDCFE;">onClick</span><span style="word-wrap: break-word; color: #D4D4D4;">=</span><span style="word-wrap: break-word; color: #569CD6;">{</span><span style="word-wrap: break-word; color: #D4D4D4;">() </span><span style="word-wrap: break-word; color: #569CD6;">=></span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #569CD6;">this</span><span style="word-wrap: break-word; color: #D4D4D4;">.</span><span style="word-wrap: break-word; color: #DCDCAA;">setState</span><span style="word-wrap: break-word; color: #D4D4D4;">({ </span><span style="word-wrap: break-word; color: #9CDCFE;">count:</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #569CD6;">this</span><span style="word-wrap: break-word; color: #D4D4D4;">.</span><span style="word-wrap: break-word; color: #9CDCFE;">state</span><span style="word-wrap: break-word; color: #D4D4D4;">.</span><span style="word-wrap: break-word; color: #9CDCFE;">count</span><span style="word-wrap: break-word; color: #D4D4D4;"> + </span><span style="word-wrap: break-word; color: #B5CEA8;">1</span><span style="word-wrap: break-word; color: #D4D4D4;"> })</span><span style="word-wrap: break-word; color: #569CD6;">}</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: #D4D4D4;">Increment</span><span style="word-wrap: break-word; color: #808080;">&#x3C;/</span><span style="word-wrap: break-word; color: #569CD6;">button</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">      </span><span style="word-wrap: break-word; color: #808080;">&#x3C;/</span><span style="word-wrap: break-word; color: #569CD6;">div</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">    );</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">  }</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">}</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #C586C0;">export</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #C586C0;">default</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #9CDCFE;">Counter</span><span style="word-wrap: break-word; color: #D4D4D4;">;</span><span style="word-wrap: break-word; color: inherit;">
+	</span></code></pre>
+		<div class="affine-paragraph-block-container">
+			<p><strong>Props: </strong>Props (short for properties) are inputs to a React component that are passed from
+				its parent component. They are immutable and provide a way to customize the behavior and appearance of a
+				component. Props are accessed using<code>this.props</code>in class components or as arguments in
+				functional components. Here's an example of using props in a functional component:jsxCopy code</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<pre><code class="code-jsx"><span style="word-wrap: break-word; color: #C586C0;">import</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #9CDCFE;">React</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #C586C0;">from</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #CE9178;">'react'</span><span style="word-wrap: break-word; color: #D4D4D4;">;</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #569CD6;">function</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #DCDCAA;">Greeting</span><span style="word-wrap: break-word; color: #D4D4D4;">(</span><span style="word-wrap: break-word; color: #9CDCFE;">props</span><span style="word-wrap: break-word; color: #D4D4D4;">) {</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">  </span><span style="word-wrap: break-word; color: #C586C0;">return</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #569CD6;">h1</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: #D4D4D4;">Hello, </span><span style="word-wrap: break-word; color: #569CD6;">{</span><span style="word-wrap: break-word; color: #9CDCFE;">props</span><span style="word-wrap: break-word; color: #D4D4D4;">.</span><span style="word-wrap: break-word; color: #9CDCFE;">name</span><span style="word-wrap: break-word; color: #569CD6;">}</span><span style="word-wrap: break-word; color: #D4D4D4;">!</span><span style="word-wrap: break-word; color: #808080;">&#x3C;/</span><span style="word-wrap: break-word; color: #569CD6;">h1</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: #D4D4D4;">;</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">}</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #C586C0;">export</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #C586C0;">default</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #9CDCFE;">Greeting</span><span style="word-wrap: break-word; color: #D4D4D4;">;</span></code></pre>
+		<div class="affine-paragraph-block-container">
+			<p><strong>Mixins: </strong>Mixins are a way to share code between multiple components in React. They allow
+				you to reuse code across different components by injecting the mixin's methods and properties into the
+				component's prototype chain. However, mixins have limitations and can lead to code coupling and
+				conflicts. As of React v16.8, mixins are not recommended, and the React team suggests using other
+				patterns like higher-order components (HOCs) or render props for code reuse.</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<h3>Understanding JSX - JavaScript XML</h3>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p>JSX, or JavaScript XML, is a syntax extension for JavaScript that allows you to write HTML-like code
+				within JavaScript. JSX is a fundamental part of React and is used to define the structure and appearance
+				of React components.</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p>Here are some key points to understand about JSX:</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Combining JavaScript and HTML:</strong>JSX allows you to write HTML-like syntax directly
+					within JavaScript code. This makes it easier to create and visualize the structure of UI components,
+					as it closely resembles HTML markup.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>JSX Elements:</strong>In JSX, HTML-like elements are represented as React elements. These
+					elements can be self-closing (e.g.,<code>&#x3C;div /></code>) or contain children
+					(e.g.,<code>&#x3C;div>Child&#x3C;/div></code>). JSX elements can also include attributes, event
+					handlers, and other JavaScript expressions.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Embedding JavaScript Expressions:</strong>JSX allows you to embed JavaScript expressions
+					within curly braces<code>{}</code>. This allows you to dynamically generate content, compute values,
+					or access variables within JSX elements. For example,<code>{variable}</code>or<code>{1 + 1}</code>.
+				</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Babel Transformation:</strong>JSX is not valid JavaScript syntax and needs to be transformed
+					into regular JavaScript before it can be executed in the browser. Tools like Babel are commonly used
+					to transpile JSX code into plain JavaScript, which can then be understood by browsers.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-list-block-container">
+			<ol style="">
+				<li><strong>Syntax Extension:</strong>JSX is a syntactic sugar
+					for<code>React.createElement()</code>calls. When you write JSX code, it gets compiled into calls
+					to<code>React.createElement()</code>under the hood. For
+					example,<code>&#x3C;div>Hello&#x3C;/div></code>gets compiled
+					into<code>React.createElement('div', null, 'Hello')</code>.</li>
+			</ol>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<div class="affine-paragraph-block-container">
+			<p>Here's a simple example of JSX in a React component:</p>
+			<div class="affine-block-children-container" style="padding-left: 26px;"></div>
+		</div>
+		<pre><code class="code-jsx"><span style="word-wrap: break-word; color: #C586C0;">import</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #9CDCFE;">React</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #C586C0;">from</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #CE9178;">'react'</span><span style="word-wrap: break-word; color: #D4D4D4;">;</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #569CD6;">function</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #DCDCAA;">HelloWorld</span><span style="word-wrap: break-word; color: #D4D4D4;">() {</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">  </span><span style="word-wrap: break-word; color: #569CD6;">const</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #4FC1FF;">name</span><span style="word-wrap: break-word; color: #D4D4D4;"> = </span><span style="word-wrap: break-word; color: #CE9178;">'World'</span><span style="word-wrap: break-word; color: #D4D4D4;">;</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">  </span><span style="word-wrap: break-word; color: #C586C0;">return</span><span style="word-wrap: break-word; color: #D4D4D4;"> (</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">    </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #569CD6;">div</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">      </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #569CD6;">h1</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: #D4D4D4;">Hello, </span><span style="word-wrap: break-word; color: #569CD6;">{</span><span style="word-wrap: break-word; color: #9CDCFE;">name</span><span style="word-wrap: break-word; color: #569CD6;">}</span><span style="word-wrap: break-word; color: #D4D4D4;">!</span><span style="word-wrap: break-word; color: #808080;">&#x3C;/</span><span style="word-wrap: break-word; color: #569CD6;">h1</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">      </span><span style="word-wrap: break-word; color: #808080;">&#x3C;</span><span style="word-wrap: break-word; color: #569CD6;">p</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: #D4D4D4;">Welcome to JSX.</span><span style="word-wrap: break-word; color: #808080;">&#x3C;/</span><span style="word-wrap: break-word; color: #569CD6;">p</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">    </span><span style="word-wrap: break-word; color: #808080;">&#x3C;/</span><span style="word-wrap: break-word; color: #569CD6;">div</span><span style="word-wrap: break-word; color: #808080;">></span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">  );</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #D4D4D4;">}</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: inherit;">
+	</span><span style="word-wrap: break-word; color: #C586C0;">export</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #C586C0;">default</span><span style="word-wrap: break-word; color: #D4D4D4;"> </span><span style="word-wrap: break-word; color: #9CDCFE;">HelloWorld</span><span style="word-wrap: break-word; color: #D4D4D4;">;</span></code></pre>
+		<pre><code class="code-Plain Text">Congratulations ! First Unit is Completed.</code></pre>
+		<hr>
+	</div>
+</body>
+
+</html>

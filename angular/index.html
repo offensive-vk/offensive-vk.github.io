@@ -1,0 +1,339 @@
+<!doctype html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="../css/style.css">
+    <style>
+        input[type='checkbox'] {
+            display: none;
+        }
+
+        label:before {
+            background: rgb(30, 150, 235);
+            border-radius: 3px;
+            height: 16px;
+            width: 16px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        input[type='checkbox']+label:before {
+            content: '';
+            background: rgb(30, 150, 235);
+            color: #fff;
+            font-size: 16px;
+            line-height: 16px;
+            text-align: center;
+        }
+
+        input[type='checkbox']:checked+label:before {
+            content: '✓';
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 70vw; margin: 60px auto;">
+        <h1>Angular - Frontend</h1>
+        <div class="affine-paragraph-block-container">
+            <h2>What do you mean by Angular?</h2>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p>Angular is a popular open-source front-end web application framework maintained by Google. It's used for
+                building dynamic, single-page applications (SPAs) and provides a structured framework for organizing
+                code and handling data binding.</p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <h3>What are the advantages and disadvantages of angular?</h3>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p>Advantages:</p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Modular and Structured:</strong>Angular promotes a modular architecture, making it easier to
+                    organize and scale complex applications. Components, services, and modules allow for a structured
+                    development approach.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Two-way Data Binding:</strong>Angular's two-way data binding feature automatically
+                    synchronizes the model and the view, reducing the need for manual DOM manipulation and making data
+                    management more efficient.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Dependency Injection:</strong>Angular's built-in dependency injection system helps manage
+                    dependencies between different components and services, making the application more modular,
+                    testable, and maintainable.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Support for SPA Development:</strong>Angular is well-suited for building single-page
+                    applications (SPAs) due to its routing capabilities, which enable seamless navigation between views
+                    without full page reloads.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Rich Ecosystem and Tooling:</strong>Angular has a vibrant ecosystem with a wide range of
+                    third-party libraries, tools, and extensions available, including Angular CLI for project
+                    scaffolding, testing tools like Karma and Protractor, and UI component libraries like Angular
+                    Material.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p><strong>Disadvantages:</strong></p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Learning Curve:</strong>Angular has a steep learning curve, especially for developers new to
+                    front-end development or those transitioning from other frameworks. Its complex architecture and
+                    terminology may require additional time and effort to grasp.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Performance Overhead:</strong>Angular's comprehensive features and functionalities come with
+                    a performance overhead compared to lighter frameworks like React or Vue.js. Large-scale applications
+                    may experience slower initial load times and increased memory usage.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Verbose Syntax:</strong>Angular's syntax can be verbose compared to other frameworks,
+                    leading to more boilerplate code in certain scenarios. This verbosity can make code harder to read
+                    and maintain, especially for smaller projects.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Migration Challenges:</strong>Upgrading between major versions of Angular can be challenging
+                    due to breaking changes and migration efforts required. This can pose difficulties for existing
+                    projects that need to stay up-to-date with the latest features and improvements.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Size of Bundle:</strong>Angular applications tend to have larger bundle sizes compared to
+                    some other frameworks, which can impact initial load times, especially on slower networks or
+                    devices.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <h2>
+                What are the features of angular?</h2>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Two-Way Data Binding:</strong>Angular provides two-way data binding, which means changes to
+                    the model automatically update the view, and vice versa. This feature simplifies the synchronization
+                    of data between the model and the view, reducing the need for manual DOM manipulation.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Modularity with Components:</strong>Angular emphasizes a component-based architecture, where
+                    applications are composed of reusable and encapsulated components. Components encapsulate the
+                    behavior, structure, and styles of UI elements, promoting modularity and maintainability.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Dependency Injection:</strong>Angular's built-in dependency injection system facilitates the
+                    management of dependencies between different components and services. Dependency injection helps
+                    decouple components, making them easier to test and maintain, and promotes the reuse of code.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Routing and Navigation:</strong>Angular provides robust routing and navigation capabilities
+                    for building single-page applications (SPAs). The Angular Router allows developers to define routes,
+                    handle navigation between different views, and manage application state without full page reloads,
+                    enabling a seamless user experience.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <h3>
+                What is a single page application in angular?</h3>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p>A Single Page Application (SPA) in Angular is a web application that dynamically updates the content on a
+                single web page without requiring a full page reload during navigation. In Angular, SPAs are built using
+                the Angular framework, which provides tools and features to facilitate the development of dynamic and
+                interactive web applications.</p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p></p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <h3>What are Components in Angular?</h3>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p>Components are the basic building blocks used to define the UI elements and functionality of an
+                application. Components encapsulate a portion of the user interface, along with its associated logic and
+                data, into reusable and modular units. These components can then be composed and combined to create
+                complex user interfaces.</p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <h3>
+                What do you understand by pipes in angular?</h3>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p>In Angular, pipes are a feature that allows developers to transform data values within templates before
+                displaying them in the user interface. Pipes are used within template expressions to apply
+                transformations such as formatting dates, numbers, currency, or filtering and sorting arrays.</p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <h3>
+                Explain routing and navigation</h3>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p>Routing and navigation are essential concepts in web development, allowing users to navigate between
+                different views or pages within a web application. In Angular, routing and navigation are handled by the
+                Angular Router module, which provides a powerful mechanism for defining navigation paths and rendering
+                the appropriate components based on the user's actions.</p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p>Here's a breakdown of routing and navigation in Angular:</p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Routing Configuration:</strong>Angular applications typically have multiple views or
+                    components that represent different pages or sections of the application. The routing configuration
+                    defines how these views map to specific URL paths.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;">
+                <div class="affine-list-block-container">
+                    <ul style="">
+                        <li><strong>Routes Definition:</strong>Routes are defined using
+                            the<code>RouterModule.forRoot()</code>method in the root application module
+                            (usually<code>AppModule</code>). Each route consists of a path and a component that should
+                            be displayed when the path matches the URL.</li>
+                    </ul>
+                    <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+                </div>
+                <div class="affine-list-block-container">
+                    <ul style="">
+                        <li><strong>Route Parameters:</strong>Routes can contain parameters that allow dynamic values to
+                            be passed in the URL. Parameters are denoted by a colon (<code>:</code>) followed by the
+                            parameter name in the route path.</li>
+                    </ul>
+                    <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="affine-list-block-container">
+            <ol style="">
+                <li><strong>Navigation:</strong>Navigation refers to the process of moving from one view to another
+                    within the application. Angular provides various mechanisms for triggering navigation, such as
+                    links, buttons, or programmatic navigation.</li>
+            </ol>
+            <div class="affine-block-children-container" style="padding-left: 26px;">
+                <div class="affine-list-block-container">
+                    <ul style="">
+                        <li><strong>RouterLink Directive:</strong>The<code>routerLink</code>directive is used in HTML
+                            templates to create navigation links. It accepts the path of the route to navigate to and
+                            automatically generates the appropriate hyperlink.</li>
+                    </ul>
+                    <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+                </div>
+                <div class="affine-list-block-container">
+                    <ul style="">
+                        <li><strong>Router Service:</strong>The<code>Router</code>service provided by Angular allows for
+                            programmatic navigation within components. It provides methods
+                            like<code>navigate()</code>and<code>navigateByUrl()</code>to navigate to a specific route
+                            programmatically.</li>
+                    </ul>
+                    <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <h3>
+                What is dependency injection</h3>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p>Dependency Injection (DI) is a design pattern and technique used in software development, including
+                Angular applications, to achieve loose coupling between components and manage dependencies more
+                effectively.</p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p>Dependency Injection refers to the mechanism through which Angular's injector subsystem provides
+                components with the services or other dependencies they require. Instead of components creating their
+                own dependencies directly, they declare their dependencies in their constructor parameters, and
+                Angular's injector takes care of providing instances of those dependencies when the component is
+                instantiated.</p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <h3>
+                What do you mean by function scope</h3>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p>Function scope refers to the visibility and accessibility of variables and functions within a specific
+                function in JavaScript. In JavaScript, variables declared using the <code>var</code> keyword have
+                function scope, meaning they are accessible only within the function in which they are declared.</p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <h3>
+                What are directives?</h3>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p>Directives are a type of JavaScript class that allow you to extend or modify the behavior of HTML
+                elements in the DOM (Document Object Model). Directives are a core part of Angular's functionality, and
+                they enable you to build dynamic, interactive web applications by adding custom behavior to HTML
+                elements.</p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <div class="affine-paragraph-block-container">
+            <p></p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+        <hr>
+        <div class="affine-paragraph-block-container">
+            <p></p>
+            <div class="affine-block-children-container" style="padding-left: 26px;"></div>
+        </div>
+    </div>
+</body>
+
+</html>
