@@ -9,7 +9,7 @@ For Any Information About Contribution and Documentation of This Repo.
 ### Please Refer to
 
 - [Code of Conduct](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/CODE_OF_CONDUCT.md)
-- [Documentation](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/README.md)
+- [Documentation](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/README.md) *(Current File)*
 - [Contribution Guidelines](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/CONTRIBUTING.md)
 - [Security Guidelines](https://github.com/offensive-vk/offensive-vk.github.io/blob/master/.github/SECURITY.md)
 - [Author 🧑‍💻](https://github.com/offensive-vk/)
@@ -57,4 +57,4 @@ If you have any suggestions for any component or section, please create an [pull
 
 Feel free to connect if you have any questions or just want to chat about web development. You can find me on [Twitter](https://twitter.com/offensive-vk) or my email at profile.
 
-**Thank you for exploring my web development journey! 🚀**
+*Thank you for exploring my web development journey! 🚀*
