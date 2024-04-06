@@ -1,4 +1,5 @@
-# ================
+# ===========================
+# Hidden Files and Folders.
 shristi/
 .vscode/
 .json
@@ -7,4 +8,4 @@ node_modules/
 tests/
 test/
 dist/
-# ================
+# ===========================
